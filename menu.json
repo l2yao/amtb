@@ -1,0 +1,1394 @@
+{
+    "code": 0,
+    "message": "OK",
+    "speechposterUrl": "https://tw2.amtb.de/newfabo/",
+    "categories": [
+        {
+            "AMTB_ID": 1,
+            "AMTB_NAME": "淨空老和尚",
+            "AMTB_PARENT_ID": 0,
+            "level": 1,
+            "isShow": 1,
+            "logo": null,
+            "haschild": 1,
+            "countchild": 10,
+            "categories": [
+                {
+                    "AMTB_ID": 4,
+                    "AMTB_NAME": "認識佛教",
+                    "AMTB_PARENT_ID": 1,
+                    "level": 2,
+                    "isShow": 1,
+                    "logo": null,
+                    "haschild": 1,
+                    "countchild": 4,
+                    "categories": [
+                        {
+                            "AMTB_ID": 50,
+                            "AMTB_NAME": "認識佛陀教育",
+                            "AMTB_PARENT_ID": 4,
+                            "level": 3,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 153,
+                            "AMTB_NAME": "佛教使命",
+                            "AMTB_PARENT_ID": 4,
+                            "level": 4,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 152,
+                            "AMTB_NAME": "寺院教育",
+                            "AMTB_PARENT_ID": 4,
+                            "level": 5,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 65,
+                            "AMTB_NAME": "佛法人生",
+                            "AMTB_PARENT_ID": 4,
+                            "level": 7,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        }
+                    ]
+                },
+                {
+                    "AMTB_ID": 5,
+                    "AMTB_NAME": "三皈五戒",
+                    "AMTB_PARENT_ID": 1,
+                    "level": 8,
+                    "isShow": 1,
+                    "logo": null,
+                    "haschild": 1,
+                    "countchild": 2,
+                    "categories": [
+                        {
+                            "AMTB_ID": 51,
+                            "AMTB_NAME": "三皈傳授",
+                            "AMTB_PARENT_ID": 5,
+                            "level": 9,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 155,
+                            "AMTB_NAME": "五戒十善",
+                            "AMTB_PARENT_ID": 5,
+                            "level": 10,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        }
+                    ]
+                },
+                {
+                    "AMTB_ID": 6,
+                    "AMTB_NAME": "入門經典",
+                    "AMTB_PARENT_ID": 1,
+                    "level": 11,
+                    "isShow": 1,
+                    "logo": null,
+                    "haschild": 1,
+                    "countchild": 5,
+                    "categories": [
+                        {
+                            "AMTB_ID": 157,
+                            "AMTB_NAME": "太上感應篇",
+                            "AMTB_PARENT_ID": 6,
+                            "level": 12,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 156,
+                            "AMTB_NAME": "十善業道經",
+                            "AMTB_PARENT_ID": 6,
+                            "level": 13,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 116,
+                            "AMTB_NAME": "阿難問事佛吉凶經",
+                            "AMTB_PARENT_ID": 6,
+                            "level": 14,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 52,
+                            "AMTB_NAME": "地藏菩薩本願經",
+                            "AMTB_PARENT_ID": 6,
+                            "level": 15,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 158,
+                            "AMTB_NAME": "沙彌律儀",
+                            "AMTB_PARENT_ID": 6,
+                            "level": 16,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        }
+                    ]
+                },
+                {
+                    "AMTB_ID": 7,
+                    "AMTB_NAME": "淨土五經一論",
+                    "AMTB_PARENT_ID": 1,
+                    "level": 17,
+                    "isShow": 1,
+                    "logo": null,
+                    "haschild": 1,
+                    "countchild": 7,
+                    "categories": [
+                        {
+                            "AMTB_ID": 26,
+                            "AMTB_NAME": "阿彌陀經",
+                            "AMTB_PARENT_ID": 7,
+                            "level": 18,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 27,
+                            "AMTB_NAME": "無量壽經",
+                            "AMTB_PARENT_ID": 7,
+                            "level": 19,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 28,
+                            "AMTB_NAME": "觀無量壽佛經",
+                            "AMTB_PARENT_ID": 7,
+                            "level": 20,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 29,
+                            "AMTB_NAME": "普賢行願品",
+                            "AMTB_PARENT_ID": 7,
+                            "level": 21,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 30,
+                            "AMTB_NAME": "念佛圓通章",
+                            "AMTB_PARENT_ID": 7,
+                            "level": 22,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 31,
+                            "AMTB_NAME": "往生論",
+                            "AMTB_PARENT_ID": 7,
+                            "level": 23,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 66,
+                            "AMTB_NAME": "淨土念佛法門",
+                            "AMTB_PARENT_ID": 7,
+                            "level": 24,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        }
+                    ]
+                },
+                {
+                    "AMTB_ID": 8,
+                    "AMTB_NAME": "大乘經論",
+                    "AMTB_PARENT_ID": 1,
+                    "level": 25,
+                    "isShow": 1,
+                    "logo": null,
+                    "haschild": 1,
+                    "countchild": 6,
+                    "categories": [
+                        {
+                            "AMTB_ID": 32,
+                            "AMTB_NAME": "楞嚴經",
+                            "AMTB_PARENT_ID": 8,
+                            "level": 26,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 33,
+                            "AMTB_NAME": "法華經",
+                            "AMTB_PARENT_ID": 8,
+                            "level": 27,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 124,
+                            "AMTB_NAME": "八十華嚴",
+                            "AMTB_PARENT_ID": 8,
+                            "level": 28,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 123,
+                            "AMTB_NAME": "四十華嚴",
+                            "AMTB_PARENT_ID": 8,
+                            "level": 29,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 117,
+                            "AMTB_NAME": "佛說八大人覺經",
+                            "AMTB_PARENT_ID": 8,
+                            "level": 30,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 122,
+                            "AMTB_NAME": "修華嚴奧旨妄盡還源觀",
+                            "AMTB_PARENT_ID": 8,
+                            "level": 31,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        }
+                    ]
+                },
+                {
+                    "AMTB_ID": 9,
+                    "AMTB_NAME": "其他經律論",
+                    "AMTB_PARENT_ID": 1,
+                    "level": 32,
+                    "isShow": 1,
+                    "logo": null,
+                    "haschild": 1,
+                    "countchild": 4,
+                    "categories": [
+                        {
+                            "AMTB_ID": 34,
+                            "AMTB_NAME": "金剛般若",
+                            "AMTB_PARENT_ID": 9,
+                            "level": 33,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 35,
+                            "AMTB_NAME": "法相唯識",
+                            "AMTB_PARENT_ID": 9,
+                            "level": 34,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 36,
+                            "AMTB_NAME": "律宗",
+                            "AMTB_PARENT_ID": 9,
+                            "level": 35,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 37,
+                            "AMTB_NAME": "其他經典",
+                            "AMTB_PARENT_ID": 9,
+                            "level": 38,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 1,
+                            "countchild": 2
+                        }
+                    ]
+                },
+                {
+                    "AMTB_ID": 11,
+                    "AMTB_NAME": "祖師大德",
+                    "AMTB_PARENT_ID": 1,
+                    "level": 41,
+                    "isShow": 1,
+                    "logo": null,
+                    "haschild": 1,
+                    "countchild": 12,
+                    "categories": [
+                        {
+                            "AMTB_ID": 159,
+                            "AMTB_NAME": "惠能大師",
+                            "AMTB_PARENT_ID": 11,
+                            "level": 42,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 160,
+                            "AMTB_NAME": "永嘉大師",
+                            "AMTB_PARENT_ID": 11,
+                            "level": 43,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 161,
+                            "AMTB_NAME": "僧燦大師",
+                            "AMTB_PARENT_ID": 11,
+                            "level": 44,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 162,
+                            "AMTB_NAME": "行策大師",
+                            "AMTB_PARENT_ID": 11,
+                            "level": 45,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 163,
+                            "AMTB_NAME": "中峰大師",
+                            "AMTB_PARENT_ID": 11,
+                            "level": 46,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 164,
+                            "AMTB_NAME": "雲谷大師",
+                            "AMTB_PARENT_ID": 11,
+                            "level": 47,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 165,
+                            "AMTB_NAME": "蕅益大師",
+                            "AMTB_PARENT_ID": 11,
+                            "level": 48,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 166,
+                            "AMTB_NAME": "印光大師",
+                            "AMTB_PARENT_ID": 11,
+                            "level": 49,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 167,
+                            "AMTB_NAME": "弘一大師",
+                            "AMTB_PARENT_ID": 11,
+                            "level": 50,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 168,
+                            "AMTB_NAME": "倓虛法師",
+                            "AMTB_PARENT_ID": 11,
+                            "level": 51,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 169,
+                            "AMTB_NAME": "夏蓮居老居士",
+                            "AMTB_PARENT_ID": 11,
+                            "level": 52,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 170,
+                            "AMTB_NAME": "李炳南老居士",
+                            "AMTB_PARENT_ID": 11,
+                            "level": 53,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        }
+                    ]
+                },
+                {
+                    "AMTB_ID": 12,
+                    "AMTB_NAME": "講經培訓",
+                    "AMTB_PARENT_ID": 1,
+                    "level": 54,
+                    "isShow": 1,
+                    "logo": null,
+                    "haschild": 1,
+                    "countchild": 2,
+                    "categories": [
+                        {
+                            "AMTB_ID": 55,
+                            "AMTB_NAME": "內典研學",
+                            "AMTB_PARENT_ID": 12,
+                            "level": 55,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 171,
+                            "AMTB_NAME": "培訓班開示",
+                            "AMTB_PARENT_ID": 12,
+                            "level": 56,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        }
+                    ]
+                },
+                {
+                    "AMTB_ID": 10,
+                    "AMTB_NAME": "開示與問答",
+                    "AMTB_PARENT_ID": 1,
+                    "level": 57,
+                    "isShow": 1,
+                    "logo": null,
+                    "haschild": 1,
+                    "countchild": 7,
+                    "categories": [
+                        {
+                            "AMTB_ID": 39,
+                            "AMTB_NAME": "早餐開示",
+                            "AMTB_PARENT_ID": 10,
+                            "level": 58,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 40,
+                            "AMTB_NAME": "地區開示",
+                            "AMTB_PARENT_ID": 10,
+                            "level": 59,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 67,
+                            "AMTB_NAME": "基礎佛學",
+                            "AMTB_PARENT_ID": 10,
+                            "level": 60,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 41,
+                            "AMTB_NAME": "電台弘法",
+                            "AMTB_PARENT_ID": 10,
+                            "level": 61,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 54,
+                            "AMTB_NAME": "學佛答問",
+                            "AMTB_PARENT_ID": 10,
+                            "level": 62,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 43,
+                            "AMTB_NAME": "節錄",
+                            "AMTB_PARENT_ID": 10,
+                            "level": 63,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 68,
+                            "AMTB_NAME": "各地活動紀念影片",
+                            "AMTB_PARENT_ID": 10,
+                            "level": 64,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        }
+                    ]
+                },
+                {
+                    "AMTB_ID": 13,
+                    "AMTB_NAME": "社會教育",
+                    "AMTB_PARENT_ID": 1,
+                    "level": 65,
+                    "isShow": 1,
+                    "logo": null,
+                    "haschild": 1,
+                    "countchild": 5,
+                    "categories": [
+                        {
+                            "AMTB_ID": 38,
+                            "AMTB_NAME": "因果教育",
+                            "AMTB_PARENT_ID": 13,
+                            "level": 66,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 172,
+                            "AMTB_NAME": "傳統文化",
+                            "AMTB_PARENT_ID": 13,
+                            "level": 67,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 173,
+                            "AMTB_NAME": "多元文化",
+                            "AMTB_PARENT_ID": 13,
+                            "level": 68,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 56,
+                            "AMTB_NAME": "宗教典籍",
+                            "AMTB_PARENT_ID": 13,
+                            "level": 69,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        },
+                        {
+                            "AMTB_ID": 42,
+                            "AMTB_NAME": "仁愛和平講堂",
+                            "AMTB_PARENT_ID": 13,
+                            "level": 70,
+                            "isShow": 1,
+                            "logo": null,
+                            "haschild": 0,
+                            "countchild": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "topspeech": {
+        "name": "淨空老和尚大經講座",
+        "data": [
+            {
+                "id": 2490,
+                "menuid": "02-039",
+                "menuidparent": "02",
+                "menuidchild": 39,
+                "voice": "",
+                "title": "淨土大經解演義",
+                "speechmaker": "淨空老法師",
+                "speechdate": "2010.4.5",
+                "speechplace": "香港佛陀教育協會、澳洲淨宗學院、馬來西亞華嚴講堂、日本岡山淨宗學會、台灣高雄",
+                "introduction": null,
+                "numbers": 600,
+                "numbers_manual": 600,
+                "teachingbook": null,
+                "referencebook": null,
+                "hits": 0,
+                "netprogress": null,
+                "comments": null,
+                "txt": 1,
+                "mp3": 1,
+                "wmv": 0,
+                "hiwmv": 0,
+                "mp4": 1,
+                "himp4": 1,
+                "stb": 0,
+                "rmvb": 0,
+                "flv": 0,
+                "avi": 0,
+                "m2p": 0,
+                "xml": 0,
+                "nlf": 0,
+                "tcf": 0,
+                "vcd": 0,
+                "dvd": 0,
+                "hdtv": 0,
+                "logo": "images/984664c60fbed6fa40e2171477bab889.jpg",
+                "image": 0,
+                "updatetime": "2021-01-24 11:18:33",
+                "updateman": "",
+                "ispublic": 1,
+                "flag": 1,
+                "category_AMTB_ID": 27,
+                "createtime": null,
+                "titlegb": "净土大经解演义",
+                "titlegb_at": "2021-01-24 11:31:44",
+                "voices": "{\"himp4\":\"MN\",\"mp3\":\"MN\",\"mp4\":\"MN\"}",
+                "photography_unit": null,
+                "schedulepublic": null,
+                "titlealt": "淨土大經解演義",
+                "titlegbalt": "净土大经解演义",
+                "topspeech": 140,
+                "subtable_id": 2490,
+                "CategoryNew_id": 27,
+                "new_categories": [
+                    {
+                        "AMTB_ID": 27,
+                        "isShow": 1,
+                        "AMTB_NAME": "無量壽經",
+                        "postAt": "2012-06-20 15:08:34",
+                        "AMTB_PARENT_ID": 7,
+                        "level": 19,
+                        "amtborder": 0,
+                        "logo": null,
+                        "pivot": {
+                            "subtable_id": 2490,
+                            "CategoryNew_id": 27
+                        }
+                    }
+                ],
+                "subtable_tags": [
+                    {
+                        "id": 11,
+                        "meta_comments": "",
+                        "meta_value": "淨空老法師",
+                        "parent_id": 2,
+                        "isShow": 1,
+                        "rank": 18,
+                        "pivot": {
+                            "subtable_id": 2490,
+                            "subtabletag_id": 11
+                        }
+                    },
+                    {
+                        "id": 24,
+                        "meta_comments": "",
+                        "meta_value": "2001~2010",
+                        "parent_id": 1,
+                        "isShow": 1,
+                        "rank": 5,
+                        "pivot": {
+                            "subtable_id": 2490,
+                            "subtabletag_id": 24
+                        }
+                    },
+                    {
+                        "id": 25,
+                        "meta_comments": "",
+                        "meta_value": "2011",
+                        "parent_id": 1,
+                        "isShow": 1,
+                        "rank": 6,
+                        "pivot": {
+                            "subtable_id": 2490,
+                            "subtabletag_id": 25
+                        }
+                    },
+                    {
+                        "id": 32,
+                        "meta_comments": "",
+                        "meta_value": "臺灣",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 33,
+                        "pivot": {
+                            "subtable_id": 2490,
+                            "subtabletag_id": 32
+                        }
+                    },
+                    {
+                        "id": 33,
+                        "meta_comments": "",
+                        "meta_value": "香港",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 34,
+                        "pivot": {
+                            "subtable_id": 2490,
+                            "subtabletag_id": 33
+                        }
+                    },
+                    {
+                        "id": 36,
+                        "meta_comments": "",
+                        "meta_value": "馬來西亞",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 36,
+                        "pivot": {
+                            "subtable_id": 2490,
+                            "subtabletag_id": 36
+                        }
+                    },
+                    {
+                        "id": 38,
+                        "meta_comments": "",
+                        "meta_value": "日本",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 38,
+                        "pivot": {
+                            "subtable_id": 2490,
+                            "subtabletag_id": 38
+                        }
+                    },
+                    {
+                        "id": 39,
+                        "meta_comments": "",
+                        "meta_value": "澳洲",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 39,
+                        "pivot": {
+                            "subtable_id": 2490,
+                            "subtabletag_id": 39
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 53,
+                "menuid": "02-037",
+                "menuidparent": "02",
+                "menuidchild": 37,
+                "voice": "",
+                "title": "淨土大經科註",
+                "speechmaker": "淨空老法師",
+                "speechdate": "2011.9.21",
+                "speechplace": "香港佛陀教育協會、澳洲、泰國、馬來西亞",
+                "introduction": null,
+                "numbers": 578,
+                "numbers_manual": 578,
+                "teachingbook": null,
+                "referencebook": "<span class=\"px12\">彌陀四十八大願 </span><a href=\"http://www.amtb.org.tw/pdf/02_48yuan.pdf\"><img src=\"../image/pdf_logo.gif\" \r\n\r\nborder=\"0\" align=\"absmiddle\"></a>",
+                "hits": 0,
+                "netprogress": "MP3及WMV製作-李澤榮",
+                "comments": null,
+                "txt": 1,
+                "mp3": 1,
+                "wmv": 0,
+                "hiwmv": 0,
+                "mp4": 1,
+                "himp4": 1,
+                "stb": 0,
+                "rmvb": 0,
+                "flv": 0,
+                "avi": 0,
+                "m2p": 0,
+                "xml": 0,
+                "nlf": 0,
+                "tcf": 0,
+                "vcd": 0,
+                "dvd": 0,
+                "hdtv": 0,
+                "logo": "images/a1477e910c16485cb90b528870d82bfa.jpg",
+                "image": 0,
+                "updatetime": "2021-01-24 11:19:04",
+                "updateman": "SYSTEM_BOT",
+                "ispublic": 1,
+                "flag": 0,
+                "category_AMTB_ID": 27,
+                "createtime": null,
+                "titlegb": "净土大经科注",
+                "titlegb_at": "2021-01-24 11:31:44",
+                "voices": "{\"himp4\":\"MN\",\"mp3\":\"MN\",\"mp4\":\"MN\"}",
+                "photography_unit": null,
+                "schedulepublic": null,
+                "titlealt": "淨土大經科註",
+                "titlegbalt": "净土大经科注",
+                "topspeech": 130,
+                "subtable_id": 53,
+                "CategoryNew_id": 27,
+                "new_categories": [
+                    {
+                        "AMTB_ID": 27,
+                        "isShow": 1,
+                        "AMTB_NAME": "無量壽經",
+                        "postAt": "2012-06-20 15:08:34",
+                        "AMTB_PARENT_ID": 7,
+                        "level": 19,
+                        "amtborder": 0,
+                        "logo": null,
+                        "pivot": {
+                            "subtable_id": 53,
+                            "CategoryNew_id": 27
+                        }
+                    }
+                ],
+                "subtable_tags": [
+                    {
+                        "id": 11,
+                        "meta_comments": "",
+                        "meta_value": "淨空老法師",
+                        "parent_id": 2,
+                        "isShow": 1,
+                        "rank": 18,
+                        "pivot": {
+                            "subtable_id": 53,
+                            "subtabletag_id": 11
+                        }
+                    },
+                    {
+                        "id": 25,
+                        "meta_comments": "",
+                        "meta_value": "2011",
+                        "parent_id": 1,
+                        "isShow": 1,
+                        "rank": 6,
+                        "pivot": {
+                            "subtable_id": 53,
+                            "subtabletag_id": 25
+                        }
+                    },
+                    {
+                        "id": 26,
+                        "meta_comments": "",
+                        "meta_value": "2012",
+                        "parent_id": 1,
+                        "isShow": 1,
+                        "rank": 7,
+                        "pivot": {
+                            "subtable_id": 53,
+                            "subtabletag_id": 26
+                        }
+                    },
+                    {
+                        "id": 33,
+                        "meta_comments": "",
+                        "meta_value": "香港",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 34,
+                        "pivot": {
+                            "subtable_id": 53,
+                            "subtabletag_id": 33
+                        }
+                    },
+                    {
+                        "id": 39,
+                        "meta_comments": "",
+                        "meta_value": "澳洲",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 39,
+                        "pivot": {
+                            "subtable_id": 53,
+                            "subtabletag_id": 39
+                        }
+                    },
+                    {
+                        "id": 47,
+                        "meta_comments": "",
+                        "meta_value": "泰國",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 44,
+                        "pivot": {
+                            "subtable_id": 53,
+                            "subtabletag_id": 47
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 3454,
+                "menuid": "02-040",
+                "menuidparent": "02",
+                "menuidchild": 40,
+                "voice": "",
+                "title": "2012淨土大經科註",
+                "speechmaker": "淨空老法師",
+                "speechdate": "2012.10.21",
+                "speechplace": "香港佛陀教育協會、台灣、斯里蘭卡、馬來西亞",
+                "introduction": null,
+                "numbers": 644,
+                "numbers_manual": 644,
+                "teachingbook": null,
+                "referencebook": null,
+                "hits": 0,
+                "netprogress": null,
+                "comments": null,
+                "txt": 1,
+                "mp3": 1,
+                "wmv": 0,
+                "hiwmv": 0,
+                "mp4": 1,
+                "himp4": 1,
+                "stb": 0,
+                "rmvb": 0,
+                "flv": 0,
+                "avi": 0,
+                "m2p": 0,
+                "xml": 0,
+                "nlf": 0,
+                "tcf": 0,
+                "vcd": 0,
+                "dvd": 0,
+                "hdtv": 0,
+                "logo": "images/10f49e468744146fb60332d338e0b08e.jpg",
+                "image": 0,
+                "updatetime": "2021-01-24 11:19:29",
+                "updateman": "",
+                "ispublic": 1,
+                "flag": 0,
+                "category_AMTB_ID": 27,
+                "createtime": null,
+                "titlegb": "2012净土大经科注",
+                "titlegb_at": "2021-01-24 11:31:44",
+                "voices": "{\"himp4\":\"MN\",\"mp3\":\"MN\",\"mp4\":\"MN\"}",
+                "photography_unit": null,
+                "schedulepublic": null,
+                "titlealt": "2012淨土大經科註",
+                "titlegbalt": "2012净土大经科注",
+                "topspeech": 120,
+                "subtable_id": 3454,
+                "CategoryNew_id": 27,
+                "new_categories": [
+                    {
+                        "AMTB_ID": 27,
+                        "isShow": 1,
+                        "AMTB_NAME": "無量壽經",
+                        "postAt": "2012-06-20 15:08:34",
+                        "AMTB_PARENT_ID": 7,
+                        "level": 19,
+                        "amtborder": 0,
+                        "logo": null,
+                        "pivot": {
+                            "subtable_id": 3454,
+                            "CategoryNew_id": 27
+                        }
+                    }
+                ],
+                "subtable_tags": [
+                    {
+                        "id": 11,
+                        "meta_comments": "",
+                        "meta_value": "淨空老法師",
+                        "parent_id": 2,
+                        "isShow": 1,
+                        "rank": 18,
+                        "pivot": {
+                            "subtable_id": 3454,
+                            "subtabletag_id": 11
+                        }
+                    },
+                    {
+                        "id": 26,
+                        "meta_comments": "",
+                        "meta_value": "2012",
+                        "parent_id": 1,
+                        "isShow": 1,
+                        "rank": 7,
+                        "pivot": {
+                            "subtable_id": 3454,
+                            "subtabletag_id": 26
+                        }
+                    },
+                    {
+                        "id": 27,
+                        "meta_comments": "",
+                        "meta_value": "2013",
+                        "parent_id": 1,
+                        "isShow": 1,
+                        "rank": 8,
+                        "pivot": {
+                            "subtable_id": 3454,
+                            "subtabletag_id": 27
+                        }
+                    },
+                    {
+                        "id": 28,
+                        "meta_comments": "",
+                        "meta_value": "2014",
+                        "parent_id": 1,
+                        "isShow": 1,
+                        "rank": 9,
+                        "pivot": {
+                            "subtable_id": 3454,
+                            "subtabletag_id": 28
+                        }
+                    },
+                    {
+                        "id": 32,
+                        "meta_comments": "",
+                        "meta_value": "臺灣",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 33,
+                        "pivot": {
+                            "subtable_id": 3454,
+                            "subtabletag_id": 32
+                        }
+                    },
+                    {
+                        "id": 33,
+                        "meta_comments": "",
+                        "meta_value": "香港",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 34,
+                        "pivot": {
+                            "subtable_id": 3454,
+                            "subtabletag_id": 33
+                        }
+                    },
+                    {
+                        "id": 36,
+                        "meta_comments": "",
+                        "meta_value": "馬來西亞",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 36,
+                        "pivot": {
+                            "subtable_id": 3454,
+                            "subtabletag_id": 36
+                        }
+                    },
+                    {
+                        "id": 65,
+                        "meta_comments": "",
+                        "meta_value": "斯里蘭卡",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 46,
+                        "pivot": {
+                            "subtable_id": 3454,
+                            "subtabletag_id": 65
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 3906,
+                "menuid": "02-041",
+                "menuidparent": "02",
+                "menuidchild": 41,
+                "voice": "",
+                "title": "淨土大經科註 （第四回）",
+                "speechmaker": "淨空老法師",
+                "speechdate": "2014.3.9",
+                "speechplace": "香港佛陀教育協會,台南極樂寺,澳洲淨宗學院,英國威爾士三一聖大衛大學蘭彼得校區",
+                "introduction": null,
+                "numbers": 508,
+                "numbers_manual": 508,
+                "teachingbook": null,
+                "referencebook": null,
+                "hits": 0,
+                "netprogress": null,
+                "comments": "續講中",
+                "txt": 1,
+                "mp3": 1,
+                "wmv": 0,
+                "hiwmv": 0,
+                "mp4": 1,
+                "himp4": 1,
+                "stb": 1,
+                "rmvb": 0,
+                "flv": 0,
+                "avi": 0,
+                "m2p": 0,
+                "xml": 0,
+                "nlf": 0,
+                "tcf": 0,
+                "vcd": 0,
+                "dvd": 0,
+                "hdtv": 0,
+                "logo": "images/853332833089d2e1f39276b9b75c3c20.jpg",
+                "image": 0,
+                "updatetime": "2021-01-24 11:19:50",
+                "updateman": "",
+                "ispublic": 1,
+                "flag": 0,
+                "category_AMTB_ID": 27,
+                "createtime": null,
+                "titlegb": "净土大经科注 （第四回）",
+                "titlegb_at": "2021-01-24 11:31:44",
+                "voices": "{\"himp4\":\"CT,MN\",\"mp3\":\"CT,MN\",\"mp4\":\"CT,MN\"}",
+                "photography_unit": null,
+                "schedulepublic": null,
+                "titlealt": "淨土大經科註 （第四回）",
+                "titlegbalt": "净土大经科注 （第四回）",
+                "topspeech": 110,
+                "subtable_id": 3906,
+                "CategoryNew_id": 27,
+                "new_categories": [
+                    {
+                        "AMTB_ID": 27,
+                        "isShow": 1,
+                        "AMTB_NAME": "無量壽經",
+                        "postAt": "2012-06-20 15:08:34",
+                        "AMTB_PARENT_ID": 7,
+                        "level": 19,
+                        "amtborder": 0,
+                        "logo": null,
+                        "pivot": {
+                            "subtable_id": 3906,
+                            "CategoryNew_id": 27
+                        }
+                    }
+                ],
+                "subtable_tags": [
+                    {
+                        "id": 11,
+                        "meta_comments": "",
+                        "meta_value": "淨空老法師",
+                        "parent_id": 2,
+                        "isShow": 1,
+                        "rank": 18,
+                        "pivot": {
+                            "subtable_id": 3906,
+                            "subtabletag_id": 11
+                        }
+                    },
+                    {
+                        "id": 28,
+                        "meta_comments": "",
+                        "meta_value": "2014",
+                        "parent_id": 1,
+                        "isShow": 1,
+                        "rank": 9,
+                        "pivot": {
+                            "subtable_id": 3906,
+                            "subtabletag_id": 28
+                        }
+                    },
+                    {
+                        "id": 33,
+                        "meta_comments": "",
+                        "meta_value": "香港",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 34,
+                        "pivot": {
+                            "subtable_id": 3906,
+                            "subtabletag_id": 33
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "recentspeech": [
+        {
+            "id": 341499,
+            "itemidparent": "29",
+            "itemidchild": 511,
+            "num": 320,
+            "numdesc": "第320集",
+            "voice": "CT",
+            "menuid": "29-511_CT",
+            "itemid": "29-511-0320_ct",
+            "title": "法音普薰集（粵語配音）",
+            "itemdate": null,
+            "speechplace": null,
+            "speechmaker": "淨空老法師",
+            "poster": null
+        },
+        {
+            "id": 341401,
+            "itemidparent": "29",
+            "itemidchild": 511,
+            "num": 360,
+            "numdesc": "第360集",
+            "voice": "MN",
+            "menuid": "29-511_MN",
+            "itemid": "29-511-0360_mn",
+            "title": "法音普薰集（閩南語配音）",
+            "itemdate": null,
+            "speechplace": null,
+            "speechmaker": "淨空老法師",
+            "poster": null
+        },
+        {
+            "id": 339307,
+            "itemidparent": "29",
+            "itemidchild": 512,
+            "num": 103,
+            "numdesc": "第103集",
+            "voice": "CT",
+            "menuid": "29-512_CT",
+            "itemid": "29-512-0103_ct",
+            "title": "太上感應篇精華節錄（粵語配音）",
+            "itemdate": null,
+            "speechplace": null,
+            "speechmaker": "淨空老法師",
+            "poster": null
+        },
+        {
+            "id": 340099,
+            "itemidparent": "29",
+            "itemidchild": 512,
+            "num": 103,
+            "numdesc": "第103集",
+            "voice": "MN",
+            "menuid": "29-512_MN",
+            "itemid": "29-512-0103_mn",
+            "title": "太上感應篇精華節錄（閩南語配音）",
+            "itemdate": null,
+            "speechplace": null,
+            "speechmaker": "淨空老法師",
+            "poster": null
+        },
+        {
+            "id": 339473,
+            "itemidparent": "61",
+            "itemidchild": 248,
+            "num": 237,
+            "numdesc": "第237集",
+            "voice": "MN",
+            "menuid": "61-248_MN",
+            "itemid": "61-248-0237_mn",
+            "title": "聽師父說（閩南語配音）",
+            "itemdate": null,
+            "speechplace": null,
+            "speechmaker": "淨空老法師",
+            "poster": null
+        },
+        {
+            "id": 338790,
+            "itemidparent": "65",
+            "itemidchild": 191,
+            "num": 1,
+            "numdesc": "第1集",
+            "voice": "",
+            "menuid": "65-191",
+            "itemid": "65-191-0001",
+            "title": "大愛無疆",
+            "itemdate": "",
+            "speechplace": "",
+            "speechmaker": "-",
+            "poster": ""
+        },
+        {
+            "id": 336779,
+            "itemidparent": "29",
+            "itemidchild": 509,
+            "num": 32,
+            "numdesc": "第32集",
+            "voice": "MN",
+            "menuid": "29-509_MN",
+            "itemid": "29-509-0032_mn",
+            "title": "淨修法要（閩南語配音）",
+            "itemdate": null,
+            "speechplace": null,
+            "speechmaker": "淨空老法師",
+            "poster": null
+        },
+        {
+            "id": 338226,
+            "itemidparent": "29",
+            "itemidchild": 512,
+            "num": 103,
+            "numdesc": "第103集",
+            "voice": "",
+            "menuid": "29-512",
+            "itemid": "29-512-0103",
+            "title": "太上感應篇精華節錄",
+            "itemdate": "",
+            "speechplace": "",
+            "speechmaker": "淨空老法師",
+            "poster": null
+        }
+    ]
+}
