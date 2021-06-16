@@ -1,23 +1,38 @@
-import requests
 import json
-import os
+from os import listdir, path, makedirs
+from jinja2 import Template
+from pathlib import Path
 
-try:
-    response = requests.get('https://www.amtb.tw/v2/newcategory?scope=amtb')
-    menu = response.json()
-    with open('menu.json', 'w', encoding='utf-8') as f:
-        json.dump(menu, f, ensure_ascii=False, indent=4)
-    for item in menu['categories']:
-        for items in item['categories']:
-            dir_name = items['AMTB_NAME']
-            if not os.path.exists(dir_name):
-                os.makedirs(dir_name)
-            for subitem in items['categories']:
-                name = subitem['AMTB_NAME']
-                id = subitem['AMTB_ID']
-                response = requests.get('https://www.amtb.tw/v2/newcategory/'+str(id))
-                subitem_json = response.json()
-                with open(dir_name + '/' + name+'.json', 'w', encoding='utf-8') as subf:
-                    json.dump(subitem_json, subf, ensure_ascii=False, indent=4)
-except requests.exceptions.HTTPError as error:
-    print(error)
+# Read mdx template
+with open('template.mdx', 'r') as template:
+    markdown_template = Template(template.read())
+
+# Read json template
+with open('template.json', 'r') as template:
+    json_template = Template(template.read())
+
+# Generating _category_.json
+with open('_category_.json', 'w') as category:
+    json_file = json_template.render({'label': 'AMTB', 'pos': 1})
+    category.write(json_file)
+
+# Create output dir if not exist
+if not path.exists('output'):
+    makedirs('output')
+# Read menu.json for all dirs
+with open('menu.json', 'r') as menu:
+    menus = json.load(menu)
+    for categories in menus['categories']:
+        for category in categories['categories']:
+            dir = category['AMTB_NAME']
+            files = listdir(dir)
+            for file in files:
+                base = Path(file).stem
+                with open(dir+'/'+file, 'r') as f:
+                    json_f = json.load(f)
+                    for course in json_f['sutables']['data']:
+                        md_file = markdown_template.render(course)
+                        output_dir = 'output/' + dir + '/' + base
+                        makedirs(output_dir, exist_ok=True)
+                        with open(output_dir +'/' + course['title']+'.mdx', 'w') as wf:
+                            wf.write(md_file)
