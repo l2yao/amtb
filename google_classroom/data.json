@@ -1,0 +1,56 @@
+{
+    "pos": 1,
+    "name": "谷歌教室",
+    "courses": [
+        {
+            "pos": 1,
+            "name": "了凡四训",
+            "code": "lju5vfp"
+        },
+        {
+            "pos": 2,
+            "name": "太上感应篇",
+            "code": "lwnxta2"
+        },
+        {
+            "pos": 3,
+            "name": "佛说十善业道经",
+            "code": "ugq3zfz"
+        },
+        {
+            "pos": 4,
+            "name": "地藏菩薩本願經",
+            "code": "hwoi24v"
+        },
+        {
+            "pos": 5,
+            "name": "金刚经",
+            "code": "a3pzasw"
+        },
+        {
+            "pos": 6,
+            "name": "心經",
+            "code": "um4qglg"
+        },
+        {
+            "pos": 7,
+            "name": "妙法蓮華經",
+            "code": "e7uysnr"
+        },
+        {
+            "pos": 8,
+            "name": "無量壽經",
+            "code": "6bwp6pa"
+        },
+        {
+            "pos": 9,
+            "name": "阿彌陀經要解",
+            "code": "llstz3s"
+        },
+        {
+            "pos": 10,
+            "name": "淨土大經科註",
+            "code": "fae5htf"
+        }
+    ]
+}

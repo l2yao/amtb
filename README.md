@@ -1,2 +1,3 @@
 # amtb
-utility for working with amtb.tw API
+
+utility for generating markdowns for BuddhaCollege

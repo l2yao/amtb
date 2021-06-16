@@ -1,0 +1,54 @@
+{
+    "courses": [
+        {
+            "pos": 1,
+            "name": "了凡四训",
+            "link": "https://www.youtube.com/watch?v=fnzABBRi67c&list=PLkpoTMCZoNjNIm3RhBGqDBOgFXuUl9f1g"
+        },
+        {
+            "pos": 2,
+            "name": "太上感应篇",
+            "link": "https://www.youtube.com/watch?v=E7bLbkKajTo&list=PLkpoTMCZoNjOiY3IWVtRJDj1mZTBtDbhM"
+        },
+        {
+            "pos": 3,
+            "name": "佛说十善业道经",
+            "link": "https://www.youtube.com/watch?v=VGwiqkPNpO4&list=PLkpoTMCZoNjO5TErW45IySRO9_BvEQj3f"
+        },
+        {
+            "pos": 4,
+            "name": "地藏菩薩本願經",
+            "link": "https://www.youtube.com/watch?v=L4OSFB05aC0&list=PLkpoTMCZoNjMNe_3kHx062SkUMmDPJDoy"
+        },
+        {
+            "pos": 5,
+            "name": "金刚经",
+            "link": "https://www.youtube.com/watch?v=B68Ux0t8pgM&list=PLkpoTMCZoNjM5A1tupRPyqKWWG3PnxnjU"
+        },
+        {
+            "pos": 6,
+            "name": "心經",
+            "link": "https://www.youtube.com/watch?v=qYBn20zxXl4&list=PLkpoTMCZoNjMr4VKyeaFL3HXHUs-QJIip"
+        },
+        {
+            "pos": 7,
+            "name": "妙法蓮華經",
+            "link": "https://www.youtube.com/watch?v=za6-tTovzwY&list=PLkpoTMCZoNjPCItFQSd7fPkTNlhIgAB_M"
+        },
+        {
+            "pos": 8,
+            "name": "無量壽經",
+            "link": "https://www.youtube.com/watch?v=Gc8JKuWGkJw&list=PLkpoTMCZoNjNEiKAFWnlBoqyFLoIpEqF-"
+        },
+        {
+            "pos": 9,
+            "name": "阿彌陀經要解",
+            "link": "https://www.youtube.com/watch?v=aKjm56SJw1c&list=PLkpoTMCZoNjOQfRTjOGfqbZvlnHWXMHMX"
+        },
+        {
+            "pos": 10,
+            "name": "淨土大經科註",
+            "link": "https://www.youtube.com/watch?v=41j32R26f6E&list=PLkpoTMCZoNjOo9wNth2dyxmnK7OHMa-PK"
+        }
+    ]
+}
