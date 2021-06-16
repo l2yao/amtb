@@ -32,8 +32,12 @@ with open('menu.json', 'r') as menu:
                 with open(dir+'/'+file, 'r') as f:
                     json_f = json.load(f)
                     for course in json_f['sutables']['data']:
-                        md_file = markdown_template.render(course)
-                        output_dir = 'output/' + dir + '/' + base
+                        title = slugify(course['title'])
+                        output_dir = 'output/' + dir + '/' + base + '/' + title
                         makedirs(output_dir, exist_ok=True)
-                        with open(output_dir +'/' + slugify(course['title'])+'.mdx', 'w') as wf:
-                            wf.write(md_file)
+                        number = course['numbers']
+                        for episode in range(1, number+1):
+                            course['episode'] = str(episode).zfill(4)
+                            md_file = markdown_template.render(course)
+                            with open(output_dir +'/' + str(episode)+'.mdx', 'w') as wf:
+                                wf.write(md_file)

@@ -6,4 +6,10 @@ import ReactPlayer from 'react-player'
 
 # {{ title }}
 
-<ReactPlayer controls='true' url='https://tw4.amtb.de/redirect/media/himp4/{{menuidparent}}/{{menuid}}/{{menuid}}-0001.mp4' />
+{% if himp4 == 1 %}
+<ReactPlayer controls='true' url='https://tw4.amtb.de/redirect/media/himp4/{{menuidparent}}/{{menuid}}/{{menuid}}-{{episode}}.mp4' />
+{% elif mp4 == 1 %}
+<ReactPlayer controls='true' url='https://tw4.amtb.de/redirect/media/mp4/{{menuidparent}}/{{menuid}}/{{menuid}}-{{episode}}.mp4' />
+{% elif mp3 == 1 %}
+<ReactPlayer controls='true' url='https://tw4.amtb.de/redirect/media/mp3/{{menuidparent}}/{{menuid}}/{{menuid}}-{{episode}}.mp3' />
+{% endif %}
