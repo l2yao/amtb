@@ -2,6 +2,7 @@ import json
 from os import listdir, path, makedirs
 from jinja2 import Template
 from pathlib import Path
+from slugify import slugify
 
 # Read mdx template
 with open('template.mdx', 'r') as template:
@@ -34,5 +35,5 @@ with open('menu.json', 'r') as menu:
                         md_file = markdown_template.render(course)
                         output_dir = 'output/' + dir + '/' + base
                         makedirs(output_dir, exist_ok=True)
-                        with open(output_dir +'/' + course['title']+'.mdx', 'w') as wf:
+                        with open(output_dir +'/' + slugify(course['title'])+'.mdx', 'w') as wf:
                             wf.write(md_file)
