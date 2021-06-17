@@ -4,6 +4,22 @@ from jinja2 import Template
 from pathlib import Path
 from slugify import slugify
 
+# Generate urls based on course
+def generate_urls(course):
+    urls = []
+    number = course['numbers']
+    menuid_parent = course['menuidparent']
+    menuid = course['menuid']
+    for episode in range(1, number+1):
+        episode = str(episode).zfill(4)
+        if course['himp4'] == 1:
+            urls.append('https://tw4.amtb.de/redirect/media/himp4/{}/{}/{}-{}.mp4'.format(menuid_parent, menuid, menuid, episode))
+        elif course['mp4'] == 1:
+            urls.append('https://tw4.amtb.de/redirect/media/mp4/{}/{}/{}-{}.mp4'.format(menuid_parent, menuid, menuid, episode))
+        elif course['mp3'] == 1:
+            urls.append('https://tw4.amtb.de/redirect/media/mp3/{}/{}/{}-{}.mp3'.format(menuid_parent, menuid, menuid, episode))
+    return urls
+
 # Read mdx template
 with open('template.mdx', 'r') as template:
     markdown_template = Template(template.read())
@@ -29,15 +45,13 @@ with open('menu.json', 'r') as menu:
             files = listdir(dir)
             for file in files:
                 base = Path(file).stem
+                output_dir = 'output/' + dir + '/' + base
+                makedirs(output_dir, exist_ok=True)
                 with open(dir+'/'+file, 'r') as f:
                     json_f = json.load(f)
                     for course in json_f['sutables']['data']:
-                        title = slugify(course['title'])
-                        output_dir = 'output/' + dir + '/' + base + '/' + title
-                        makedirs(output_dir, exist_ok=True)
-                        number = course['numbers']
-                        for episode in range(1, number+1):
-                            course['episode'] = str(episode).zfill(4)
-                            md_file = markdown_template.render(course)
-                            with open(output_dir +'/' + str(episode)+'.mdx', 'w') as wf:
-                                wf.write(md_file)
+                        menuid = course['menuid']
+                        course['urls'] = generate_urls(course)
+                        md_file = markdown_template.render(course)
+                        with open(output_dir +'/' + menuid +'.mdx', 'w') as wf:
+                            wf.write(md_file)
