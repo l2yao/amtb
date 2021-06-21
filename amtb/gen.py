@@ -5,20 +5,18 @@ from pathlib import Path
 from slugify import slugify
 
 # Generate urls based on course
-def generate_urls(course):
-    urls = []
-    number = course['numbers']
+def generate_props(course):
     menuid_parent = course['menuidparent']
     menuid = course['menuid']
-    for episode in range(1, number+1):
-        episode = str(episode).zfill(4)
-        if course['himp4'] == 1:
-            urls.append('https://tw4.amtb.de/redirect/media/himp4/{}/{}/{}-{}.mp4'.format(menuid_parent, menuid, menuid, episode))
-        elif course['mp4'] == 1:
-            urls.append('https://tw4.amtb.de/redirect/media/mp4/{}/{}/{}-{}.mp4'.format(menuid_parent, menuid, menuid, episode))
-        elif course['mp3'] == 1:
-            urls.append('https://tw4.amtb.de/redirect/media/mp3/{}/{}/{}-{}.mp3'.format(menuid_parent, menuid, menuid, episode))
-    return urls
+    if course['himp4'] == 1:
+        course['baseURL'] = 'https://tw4.amtb.de/redirect/media/himp4/{}/{}/{}-'.format(menuid_parent, menuid, menuid)
+        course['ext'] = 'mp4'
+    elif course['mp4'] == 1:
+        course['baseURL'] = 'https://tw4.amtb.de/redirect/media/mp4/{}/{}/{}-'.format(menuid_parent, menuid, menuid)
+        course['ext'] = 'mp4'
+    elif course['mp3'] == 1:
+        course['baseURL'] = 'https://tw4.amtb.de/redirect/media/mp3/{}/{}/{}-'.format(menuid_parent, menuid, menuid)
+        course['ext'] = 'mp3'
 
 # Read mdx template
 with open('template.mdx', 'r') as template:
@@ -51,7 +49,7 @@ with open('menu.json', 'r') as menu:
                     json_f = json.load(f)
                     for course in json_f['sutables']['data']:
                         menuid = course['menuid']
-                        course['urls'] = generate_urls(course)
+                        generate_props(course)
                         md_file = markdown_template.render(course)
                         with open(output_dir +'/' + menuid +'.mdx', 'w') as wf:
                             wf.write(md_file)

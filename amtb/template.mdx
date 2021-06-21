@@ -1,9 +1,9 @@
 ---
 sidebar_position: {{ id }}
 ---
-import ReactPlayer from 'react-player'
+import PaginatedPlayer from '/src/components/PaginatedPlayer'
 
 
 # {{ title }}
 
-<ReactPlayer controls='true' url={ {{urls}} } />
+<PaginatedPlayer count={ {{numbers}} } baseURL='{{baseURL}}' ext='{{ext}}' />
