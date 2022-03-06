@@ -1,0 +1,2 @@
+#EXTINF:0 tvg-name="{{name}}" tvg-language="{{language}}" tvg-country="{{country}}" tvg-id="{{id}}" tvg-logo="{{logo}}" group-title="{{group}}",{{title}}
+{{link}}

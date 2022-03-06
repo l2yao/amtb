@@ -35,7 +35,7 @@ with open('_category_.json', 'w') as category:
 if not path.exists('output'):
     makedirs('output')
 # Read menu.json for all dirs
-with open('menu.json', 'r') as menu:
+with open('menu.json', 'r', encoding='utf-8') as menu:
     menus = json.load(menu)
     for categories in menus['categories']:
         for category in categories['categories']:
@@ -45,11 +45,11 @@ with open('menu.json', 'r') as menu:
                 base = Path(file).stem
                 output_dir = 'output/' + dir + '/' + base
                 makedirs(output_dir, exist_ok=True)
-                with open(dir+'/'+file, 'r') as f:
+                with open(dir+'/'+file, 'r', encoding='utf-8') as f:
                     json_f = json.load(f)
                     for course in json_f['sutables']['data']:
                         menuid = course['menuid']
                         generate_props(course)
                         md_file = markdown_template.render(course)
-                        with open(output_dir +'/' + menuid +'.mdx', 'w') as wf:
+                        with open(output_dir +'/' + menuid +'.mdx', 'w', encoding='utf-8') as wf:
                             wf.write(md_file)

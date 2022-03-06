@@ -755,7 +755,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 18,
+                        "rank": 19,
                         "pivot": {
                             "subtable_id": 2490,
                             "subtabletag_id": 11
@@ -791,7 +791,7 @@
                         "meta_value": "臺灣",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 33,
+                        "rank": 34,
                         "pivot": {
                             "subtable_id": 2490,
                             "subtabletag_id": 32
@@ -803,7 +803,7 @@
                         "meta_value": "香港",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 34,
+                        "rank": 35,
                         "pivot": {
                             "subtable_id": 2490,
                             "subtabletag_id": 33
@@ -815,7 +815,7 @@
                         "meta_value": "馬來西亞",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 36,
+                        "rank": 37,
                         "pivot": {
                             "subtable_id": 2490,
                             "subtabletag_id": 36
@@ -827,7 +827,7 @@
                         "meta_value": "日本",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 38,
+                        "rank": 39,
                         "pivot": {
                             "subtable_id": 2490,
                             "subtabletag_id": 38
@@ -839,7 +839,7 @@
                         "meta_value": "澳洲",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 39,
+                        "rank": 40,
                         "pivot": {
                             "subtable_id": 2490,
                             "subtabletag_id": 39
@@ -923,7 +923,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 18,
+                        "rank": 19,
                         "pivot": {
                             "subtable_id": 53,
                             "subtabletag_id": 11
@@ -959,7 +959,7 @@
                         "meta_value": "香港",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 34,
+                        "rank": 35,
                         "pivot": {
                             "subtable_id": 53,
                             "subtabletag_id": 33
@@ -971,7 +971,7 @@
                         "meta_value": "澳洲",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 39,
+                        "rank": 40,
                         "pivot": {
                             "subtable_id": 53,
                             "subtabletag_id": 39
@@ -983,7 +983,7 @@
                         "meta_value": "泰國",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 44,
+                        "rank": 45,
                         "pivot": {
                             "subtable_id": 53,
                             "subtabletag_id": 47
@@ -1067,7 +1067,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 18,
+                        "rank": 19,
                         "pivot": {
                             "subtable_id": 3454,
                             "subtabletag_id": 11
@@ -1115,7 +1115,7 @@
                         "meta_value": "臺灣",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 33,
+                        "rank": 34,
                         "pivot": {
                             "subtable_id": 3454,
                             "subtabletag_id": 32
@@ -1127,7 +1127,7 @@
                         "meta_value": "香港",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 34,
+                        "rank": 35,
                         "pivot": {
                             "subtable_id": 3454,
                             "subtabletag_id": 33
@@ -1139,7 +1139,7 @@
                         "meta_value": "馬來西亞",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 36,
+                        "rank": 37,
                         "pivot": {
                             "subtable_id": 3454,
                             "subtabletag_id": 36
@@ -1151,7 +1151,7 @@
                         "meta_value": "斯里蘭卡",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 46,
+                        "rank": 47,
                         "pivot": {
                             "subtable_id": 3454,
                             "subtabletag_id": 65
@@ -1235,7 +1235,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 18,
+                        "rank": 19,
                         "pivot": {
                             "subtable_id": 3906,
                             "subtabletag_id": 11
@@ -1259,7 +1259,7 @@
                         "meta_value": "香港",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 34,
+                        "rank": 35,
                         "pivot": {
                             "subtable_id": 3906,
                             "subtabletag_id": 33
@@ -1271,14 +1271,29 @@
     },
     "recentspeech": [
         {
-            "id": 341499,
+            "id": 325082,
+            "itemidparent": "02",
+            "itemidchild": 41,
+            "num": 508,
+            "numdesc": "第508集",
+            "voice": "MN",
+            "menuid": "02-041_MN",
+            "itemid": "02-041-0508_mn",
+            "title": "淨土大經科註 （第四回）（閩南語配音）",
+            "itemdate": null,
+            "speechplace": null,
+            "speechmaker": "淨空老法師",
+            "poster": null
+        },
+        {
+            "id": 342003,
             "itemidparent": "29",
             "itemidchild": 511,
-            "num": 320,
-            "numdesc": "第320集",
+            "num": 400,
+            "numdesc": "第400集",
             "voice": "CT",
             "menuid": "29-511_CT",
-            "itemid": "29-511-0320_ct",
+            "itemid": "29-511-0400_ct",
             "title": "法音普薰集（粵語配音）",
             "itemdate": null,
             "speechplace": null,
@@ -1286,14 +1301,14 @@
             "poster": null
         },
         {
-            "id": 341401,
+            "id": 341717,
             "itemidparent": "29",
             "itemidchild": 511,
-            "num": 360,
-            "numdesc": "第360集",
+            "num": 400,
+            "numdesc": "第400集",
             "voice": "MN",
             "menuid": "29-511_MN",
-            "itemid": "29-511-0360_mn",
+            "itemid": "29-511-0400_mn",
             "title": "法音普薰集（閩南語配音）",
             "itemdate": null,
             "speechplace": null,
@@ -1372,21 +1387,6 @@
             "title": "淨修法要（閩南語配音）",
             "itemdate": null,
             "speechplace": null,
-            "speechmaker": "淨空老法師",
-            "poster": null
-        },
-        {
-            "id": 338226,
-            "itemidparent": "29",
-            "itemidchild": 512,
-            "num": 103,
-            "numdesc": "第103集",
-            "voice": "",
-            "menuid": "29-512",
-            "itemid": "29-512-0103",
-            "title": "太上感應篇精華節錄",
-            "itemdate": "",
-            "speechplace": "",
             "speechmaker": "淨空老法師",
             "poster": null
         }
