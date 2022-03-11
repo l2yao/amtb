@@ -2,7 +2,6 @@ import json
 from os import listdir, path, makedirs
 from jinja2 import Template
 from pathlib import Path
-from slugify import slugify
 
 # Generate urls based on course
 def generate_props(course):

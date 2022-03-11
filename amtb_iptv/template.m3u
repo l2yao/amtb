@@ -1,0 +1,6 @@
+#EXTM3U
+
+{% for class in classes %}
+#EXTINF:0 ,{{class.title}}
+{{class.link}}
+{% endfor %}
