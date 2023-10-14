@@ -40,4 +40,4 @@ def download_menu(dir, file_path, file_name):
                     url = f'https://ft.amtb.cn/ft.php?sn={menu_id}-{number}'
                     download(url, f'../doc/{dir}/{file_name}/{menu_id}', f'{number}')
 
-download_all('../amtb/menu.json')
+download_all('menu.json')
