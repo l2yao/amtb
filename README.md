@@ -1,6 +1,6 @@
 # amtb
 
-utility for generating markdowns for BuddhaCollege
+utility for working with data from https://www.amtb.tw/
 
 ### generate menu.json
 ```
@@ -15,4 +15,10 @@ python gen.py
 ### generate m3u playlist
 ```
 python playlist.py
+```
+
+### download doc and media from amtb.tw
+```
+cd amtb
+python download.py
 ```
