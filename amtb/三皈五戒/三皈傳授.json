@@ -1,13 +1,67 @@
 {
     "code": 0,
     "message": "OK",
-    "speechposterUrl": "https://tw2.amtb.de/newfabo/",
+    "speechposterUrl": "https://tw2.hwadzan.info/newfabo/",
+    "speechposterDefaultImage": "images/default.jpg",
     "categories": {
         "AMTB_ID": 51,
         "AMTB_NAME": "三皈傳授",
         "AMTB_PARENT_ID": 5,
         "level": 9,
         "isShow": 1,
+        "recommendedsubtable": {
+            "id": 249,
+            "menuid": "16-024",
+            "menuidparent": "16",
+            "menuidchild": 24,
+            "voice": "",
+            "title": "三皈五戒儀式",
+            "speechmaker": "淨空老法師",
+            "speechdate": "2006.9.24",
+            "speechplace": "新加坡博覽中心第二廳",
+            "introduction": null,
+            "numbers": 1,
+            "numbers_manual": 1,
+            "teachingbook": null,
+            "referencebook": null,
+            "hits": 0,
+            "netprogress": null,
+            "comments": null,
+            "txt": 1,
+            "mp3": 1,
+            "wmv": 0,
+            "hiwmv": 0,
+            "mp4": 1,
+            "himp4": 1,
+            "stb": 0,
+            "rmvb": 0,
+            "flv": 0,
+            "avi": 0,
+            "m2p": 0,
+            "xml": 0,
+            "nlf": 0,
+            "tcf": 0,
+            "vcd": 0,
+            "dvd": 0,
+            "hdtv": 0,
+            "logo": "images/16-024.jpg",
+            "image": 0,
+            "updatetime": "2022-10-20 15:03:32",
+            "updateman": "SYSTEM_BOT",
+            "ispublic": 1,
+            "flag": 0,
+            "category_AMTB_ID": 51,
+            "createtime": null,
+            "titlegb": "三皈五戒仪式",
+            "titlegb_at": "2022-10-20 15:17:29",
+            "voices": "",
+            "photography_unit": null,
+            "schedulepublic": null,
+            "titlealt": "三皈五戒儀式",
+            "titlegbalt": "三皈五戒仪式",
+            "topspeech": 0,
+            "all_hits": 210
+        },
         "haschild": 0,
         "countchild": 0,
         "categories": []
@@ -50,24 +104,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-024.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 15:03:32",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈五戒仪式",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:17:29",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈五戒儀式",
                 "titlegbalt": "三皈五戒仪式",
                 "topspeech": 0,
+                "all_hits": 210,
                 "subtable_id": 249,
                 "CategoryNew_id": 51,
+                "mediaid": 226664,
+                "mediatype": "himp4",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -78,6 +135,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 249,
                             "CategoryNew_id": 51
@@ -91,7 +149,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 249,
                             "subtabletag_id": 11
@@ -103,7 +161,7 @@
                         "meta_value": "2001~2010",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 5,
+                        "rank": 15,
                         "pivot": {
                             "subtable_id": 249,
                             "subtabletag_id": 24
@@ -115,7 +173,7 @@
                         "meta_value": "新加坡",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 36,
+                        "rank": 37,
                         "pivot": {
                             "subtable_id": 249,
                             "subtabletag_id": 35
@@ -158,24 +216,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-023.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 15:03:20",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈传授",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:17:29",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈傳授",
                 "titlegbalt": "三皈传授",
                 "topspeech": 0,
+                "all_hits": 135,
                 "subtable_id": 248,
                 "CategoryNew_id": 51,
+                "mediaid": 226663,
+                "mediatype": "himp4",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -186,6 +247,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 248,
                             "CategoryNew_id": 51
@@ -199,7 +261,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 248,
                             "subtabletag_id": 11
@@ -211,7 +273,7 @@
                         "meta_value": "2001~2010",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 5,
+                        "rank": 15,
                         "pivot": {
                             "subtable_id": 248,
                             "subtabletag_id": 24
@@ -223,7 +285,7 @@
                         "meta_value": "新加坡",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 36,
+                        "rank": 37,
                         "pivot": {
                             "subtable_id": 248,
                             "subtabletag_id": 35
@@ -266,24 +328,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-022.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 15:03:07",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈五戒",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:17:29",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈五戒",
                 "titlegbalt": "三皈五戒",
                 "topspeech": 0,
+                "all_hits": 71,
                 "subtable_id": 247,
                 "CategoryNew_id": 51,
+                "mediaid": 226662,
+                "mediatype": "himp4",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -294,6 +359,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 247,
                             "CategoryNew_id": 51
@@ -307,7 +373,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 247,
                             "subtabletag_id": 11
@@ -319,7 +385,7 @@
                         "meta_value": "2001~2010",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 5,
+                        "rank": 15,
                         "pivot": {
                             "subtable_id": 247,
                             "subtabletag_id": 24
@@ -362,24 +428,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-021.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 15:02:55",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈传授",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:17:29",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈傳授",
                 "titlegbalt": "三皈传授",
                 "topspeech": 0,
+                "all_hits": 53,
                 "subtable_id": 246,
                 "CategoryNew_id": 51,
+                "mediaid": 226661,
+                "mediatype": "himp4",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -390,6 +459,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 246,
                             "CategoryNew_id": 51
@@ -403,7 +473,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 246,
                             "subtabletag_id": 11
@@ -415,7 +485,7 @@
                         "meta_value": "2001~2010",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 5,
+                        "rank": 15,
                         "pivot": {
                             "subtable_id": 246,
                             "subtabletag_id": 24
@@ -427,7 +497,7 @@
                         "meta_value": "新加坡",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 36,
+                        "rank": 37,
                         "pivot": {
                             "subtable_id": 246,
                             "subtabletag_id": 35
@@ -470,24 +540,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-020.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 15:02:43",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈传授",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:17:29",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈傳授",
                 "titlegbalt": "三皈传授",
                 "topspeech": 0,
+                "all_hits": 15,
                 "subtable_id": 245,
                 "CategoryNew_id": 51,
+                "mediaid": 226660,
+                "mediatype": "himp4",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -498,6 +571,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 245,
                             "CategoryNew_id": 51
@@ -511,7 +585,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 245,
                             "subtabletag_id": 11
@@ -523,7 +597,7 @@
                         "meta_value": "2001~2010",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 5,
+                        "rank": 15,
                         "pivot": {
                             "subtable_id": 245,
                             "subtabletag_id": 24
@@ -535,9 +609,121 @@
                         "meta_value": "新加坡",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 36,
+                        "rank": 37,
                         "pivot": {
                             "subtable_id": 245,
+                            "subtabletag_id": 35
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 244,
+                "menuid": "16-019",
+                "menuidparent": "16",
+                "menuidchild": 19,
+                "voice": "",
+                "title": "三皈傳授",
+                "speechmaker": "淨空老法師",
+                "speechdate": "2002.2.3",
+                "speechplace": "新加坡佛教居士林彌陀村活動中心",
+                "introduction": null,
+                "numbers": 1,
+                "numbers_manual": 1,
+                "teachingbook": null,
+                "referencebook": null,
+                "hits": 0,
+                "netprogress": null,
+                "comments": null,
+                "txt": 1,
+                "mp3": 0,
+                "wmv": 0,
+                "hiwmv": 0,
+                "mp4": 1,
+                "himp4": 1,
+                "stb": 0,
+                "rmvb": 0,
+                "flv": 0,
+                "avi": 0,
+                "m2p": 0,
+                "xml": 0,
+                "nlf": 0,
+                "tcf": 0,
+                "vcd": 0,
+                "dvd": 0,
+                "hdtv": 0,
+                "logo": "images/16-019.jpg",
+                "image": 0,
+                "updatetime": "2022-10-20 18:18:03",
+                "updateman": "SYSTEM_BOT",
+                "ispublic": 1,
+                "flag": 0,
+                "category_AMTB_ID": 51,
+                "createtime": null,
+                "titlegb": "三皈传授",
+                "titlegb_at": "2022-10-20 18:31:54",
+                "voices": "",
+                "photography_unit": null,
+                "schedulepublic": null,
+                "titlealt": "三皈傳授",
+                "titlegbalt": "三皈传授",
+                "topspeech": 0,
+                "all_hits": 16,
+                "subtable_id": 244,
+                "CategoryNew_id": 51,
+                "mediaid": 347939,
+                "mediatype": "himp4",
+                "new_categories": [
+                    {
+                        "AMTB_ID": 51,
+                        "isShow": 1,
+                        "AMTB_NAME": "三皈傳授",
+                        "postAt": "2012-06-20 15:20:07",
+                        "AMTB_PARENT_ID": 5,
+                        "level": 9,
+                        "amtborder": 0,
+                        "logo": null,
+                        "recommendedsubtableid": 249,
+                        "pivot": {
+                            "subtable_id": 244,
+                            "CategoryNew_id": 51
+                        }
+                    }
+                ],
+                "subtable_tags": [
+                    {
+                        "id": 11,
+                        "meta_comments": "",
+                        "meta_value": "淨空老法師",
+                        "parent_id": 2,
+                        "isShow": 1,
+                        "rank": 20,
+                        "pivot": {
+                            "subtable_id": 244,
+                            "subtabletag_id": 11
+                        }
+                    },
+                    {
+                        "id": 24,
+                        "meta_comments": "",
+                        "meta_value": "2001~2010",
+                        "parent_id": 1,
+                        "isShow": 1,
+                        "rank": 15,
+                        "pivot": {
+                            "subtable_id": 244,
+                            "subtabletag_id": 24
+                        }
+                    },
+                    {
+                        "id": 35,
+                        "meta_comments": "",
+                        "meta_value": "新加坡",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 37,
+                        "pivot": {
+                            "subtable_id": 244,
                             "subtabletag_id": 35
                         }
                     }
@@ -578,24 +764,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-018.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 15:02:27",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈传授",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:17:29",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈傳授",
                 "titlegbalt": "三皈传授",
                 "topspeech": 0,
+                "all_hits": 7,
                 "subtable_id": 243,
                 "CategoryNew_id": 51,
+                "mediaid": 246129,
+                "mediatype": "mp3",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -606,6 +795,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 243,
                             "CategoryNew_id": 51
@@ -619,7 +809,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 243,
                             "subtabletag_id": 11
@@ -631,7 +821,7 @@
                         "meta_value": "2001~2010",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 5,
+                        "rank": 15,
                         "pivot": {
                             "subtable_id": 243,
                             "subtabletag_id": 24
@@ -643,7 +833,7 @@
                         "meta_value": "新加坡",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 36,
+                        "rank": 37,
                         "pivot": {
                             "subtable_id": 243,
                             "subtabletag_id": 35
@@ -686,24 +876,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-017.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 15:02:14",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈传授",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:17:28",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈傳授",
                 "titlegbalt": "三皈传授",
                 "topspeech": 0,
+                "all_hits": 29,
                 "subtable_id": 242,
                 "CategoryNew_id": 51,
+                "mediaid": 226659,
+                "mediatype": "himp4",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -714,6 +907,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 242,
                             "CategoryNew_id": 51
@@ -727,7 +921,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 242,
                             "subtabletag_id": 11
@@ -739,7 +933,7 @@
                         "meta_value": "1991~2000",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 4,
+                        "rank": 16,
                         "pivot": {
                             "subtable_id": 242,
                             "subtabletag_id": 23
@@ -751,7 +945,7 @@
                         "meta_value": "新加坡",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 36,
+                        "rank": 37,
                         "pivot": {
                             "subtable_id": 242,
                             "subtabletag_id": 35
@@ -794,24 +988,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-016.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 15:01:59",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈传授",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:02:02",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈傳授",
                 "titlegbalt": "三皈传授",
                 "topspeech": 0,
+                "all_hits": 15,
                 "subtable_id": 241,
                 "CategoryNew_id": 51,
+                "mediaid": 352486,
+                "mediatype": "himp4",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -822,6 +1019,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 241,
                             "CategoryNew_id": 51
@@ -835,7 +1033,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 241,
                             "subtabletag_id": 11
@@ -847,7 +1045,7 @@
                         "meta_value": "1991~2000",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 4,
+                        "rank": 16,
                         "pivot": {
                             "subtable_id": 241,
                             "subtabletag_id": 23
@@ -859,7 +1057,7 @@
                         "meta_value": "馬來西亞",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 37,
+                        "rank": 38,
                         "pivot": {
                             "subtable_id": 241,
                             "subtabletag_id": 36
@@ -902,24 +1100,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-015.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 15:01:46",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈传授",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:02:02",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈傳授",
                 "titlegbalt": "三皈传授",
                 "topspeech": 0,
+                "all_hits": 16,
                 "subtable_id": 240,
                 "CategoryNew_id": 51,
+                "mediaid": 226658,
+                "mediatype": "himp4",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -930,6 +1131,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 240,
                             "CategoryNew_id": 51
@@ -943,7 +1145,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 240,
                             "subtabletag_id": 11
@@ -955,7 +1157,7 @@
                         "meta_value": "1991~2000",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 4,
+                        "rank": 16,
                         "pivot": {
                             "subtable_id": 240,
                             "subtabletag_id": 23
@@ -967,7 +1169,7 @@
                         "meta_value": "馬來西亞",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 37,
+                        "rank": 38,
                         "pivot": {
                             "subtable_id": 240,
                             "subtabletag_id": 36
@@ -1010,24 +1212,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-014.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 15:01:28",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈授受",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:02:02",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈授受",
                 "titlegbalt": "三皈授受",
                 "topspeech": 0,
+                "all_hits": 11,
                 "subtable_id": 239,
                 "CategoryNew_id": 51,
+                "mediaid": 246125,
+                "mediatype": "mp3",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -1038,6 +1243,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 239,
                             "CategoryNew_id": 51
@@ -1051,7 +1257,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 239,
                             "subtabletag_id": 11
@@ -1063,7 +1269,7 @@
                         "meta_value": "1991~2000",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 4,
+                        "rank": 16,
                         "pivot": {
                             "subtable_id": 239,
                             "subtabletag_id": 23
@@ -1075,7 +1281,7 @@
                         "meta_value": "新加坡",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 36,
+                        "rank": 37,
                         "pivot": {
                             "subtable_id": 239,
                             "subtabletag_id": 35
@@ -1118,24 +1324,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": null,
+                "logo": "images/16-013_VT.jpg",
                 "image": 0,
-                "updatetime": "2020-04-29 08:53:13",
+                "updatetime": "2022-10-20 15:00:35",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈传授",
-                "titlegb_at": "2020-04-29 09:01:56",
+                "titlegb_at": "2022-10-20 15:02:02",
                 "voices": "{\"himp4\":\"CT,VT\",\"mp3\":\"CT,VT\",\"mp4\":\"CT,VT\"}",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈傳授（越南語配音）",
                 "titlegbalt": "三皈传授（越南语配音）",
                 "topspeech": 0,
+                "all_hits": 3,
                 "subtable_id": 5573,
                 "CategoryNew_id": 51,
+                "mediaid": 226657,
+                "mediatype": "himp4",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -1146,23 +1355,10 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 5573,
                             "CategoryNew_id": 51
-                        }
-                    },
-                    {
-                        "AMTB_ID": 182,
-                        "isShow": 1,
-                        "AMTB_NAME": "Tiếng Việt",
-                        "postAt": "2021-01-28 14:17:27",
-                        "AMTB_PARENT_ID": 175,
-                        "level": 148,
-                        "amtborder": 0,
-                        "logo": null,
-                        "pivot": {
-                            "subtable_id": 5573,
-                            "CategoryNew_id": 182
                         }
                     }
                 ],
@@ -1173,7 +1369,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 5573,
                             "subtabletag_id": 11
@@ -1185,7 +1381,7 @@
                         "meta_value": "1991~2000",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 4,
+                        "rank": 16,
                         "pivot": {
                             "subtable_id": 5573,
                             "subtabletag_id": 23
@@ -1197,7 +1393,7 @@
                         "meta_value": "澳洲",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 40,
+                        "rank": 41,
                         "pivot": {
                             "subtable_id": 5573,
                             "subtabletag_id": 39
@@ -1209,7 +1405,7 @@
                         "meta_value": "Tiếng Việt",
                         "parent_id": 5,
                         "isShow": 1,
-                        "rank": 56,
+                        "rank": 57,
                         "pivot": {
                             "subtable_id": 5573,
                             "subtabletag_id": 56
@@ -1252,24 +1448,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": null,
+                "logo": "images/16-013_CT.jpg",
                 "image": 0,
-                "updatetime": "2020-04-29 08:53:13",
+                "updatetime": "2022-10-20 15:00:49",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈传授",
-                "titlegb_at": "2020-04-29 09:01:51",
+                "titlegb_at": "2022-10-20 15:02:02",
                 "voices": "{\"himp4\":\"CT,VT\",\"mp3\":\"CT,VT\",\"mp4\":\"CT,VT\"}",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈傳授（粵語配音）",
                 "titlegbalt": "三皈传授（粤语配音）",
                 "topspeech": 0,
+                "all_hits": 61,
                 "subtable_id": 5374,
                 "CategoryNew_id": 51,
+                "mediaid": 226656,
+                "mediatype": "himp4",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -1280,23 +1479,10 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 5374,
                             "CategoryNew_id": 51
-                        }
-                    },
-                    {
-                        "AMTB_ID": 179,
-                        "isShow": 1,
-                        "AMTB_NAME": "粵語",
-                        "postAt": "2021-01-28 14:15:37",
-                        "AMTB_PARENT_ID": 175,
-                        "level": 145,
-                        "amtborder": 0,
-                        "logo": null,
-                        "pivot": {
-                            "subtable_id": 5374,
-                            "CategoryNew_id": 179
                         }
                     }
                 ],
@@ -1307,7 +1493,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 5374,
                             "subtabletag_id": 11
@@ -1319,7 +1505,7 @@
                         "meta_value": "1991~2000",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 4,
+                        "rank": 16,
                         "pivot": {
                             "subtable_id": 5374,
                             "subtabletag_id": 23
@@ -1331,7 +1517,7 @@
                         "meta_value": "澳洲",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 40,
+                        "rank": 41,
                         "pivot": {
                             "subtable_id": 5374,
                             "subtabletag_id": 39
@@ -1343,7 +1529,7 @@
                         "meta_value": "粵語",
                         "parent_id": 5,
                         "isShow": 1,
-                        "rank": 53,
+                        "rank": 54,
                         "pivot": {
                             "subtable_id": 5374,
                             "subtabletag_id": 51
@@ -1386,24 +1572,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-013.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 15:00:22",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈传授",
-                "titlegb_at": "2019-07-15 16:06:53",
-                "voices": "{\"himp4\":\"CT,VT\",\"mp3\":\"CT,VT\",\"mp4\":\"CT,VT\"}",
+                "titlegb_at": "2022-10-20 15:02:02",
+                "voices": "{\"himp4\":\"CT,VT\",\"mp3\":\"CT,VT\"}",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈傳授",
                 "titlegbalt": "三皈传授",
                 "topspeech": 0,
+                "all_hits": 31,
                 "subtable_id": 238,
                 "CategoryNew_id": 51,
+                "mediaid": 226655,
+                "mediatype": "himp4",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -1414,6 +1603,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 238,
                             "CategoryNew_id": 51
@@ -1427,7 +1617,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 238,
                             "subtabletag_id": 11
@@ -1439,7 +1629,7 @@
                         "meta_value": "1991~2000",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 4,
+                        "rank": 16,
                         "pivot": {
                             "subtable_id": 238,
                             "subtabletag_id": 23
@@ -1451,7 +1641,7 @@
                         "meta_value": "澳洲",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 40,
+                        "rank": 41,
                         "pivot": {
                             "subtable_id": 238,
                             "subtabletag_id": 39
@@ -1494,24 +1684,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-012.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 15:00:06",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈依",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:02:01",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈依",
                 "titlegbalt": "三皈依",
                 "topspeech": 0,
+                "all_hits": 17,
                 "subtable_id": 237,
                 "CategoryNew_id": 51,
+                "mediaid": 246121,
+                "mediatype": "mp3",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -1522,6 +1715,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 237,
                             "CategoryNew_id": 51
@@ -1535,7 +1729,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 237,
                             "subtabletag_id": 11
@@ -1547,7 +1741,7 @@
                         "meta_value": "1991~2000",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 4,
+                        "rank": 16,
                         "pivot": {
                             "subtable_id": 237,
                             "subtabletag_id": 23
@@ -1559,7 +1753,7 @@
                         "meta_value": "新加坡",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 36,
+                        "rank": 37,
                         "pivot": {
                             "subtable_id": 237,
                             "subtabletag_id": 35
@@ -1602,24 +1796,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-010.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 14:59:40",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈依",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:02:01",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈依",
                 "titlegbalt": "三皈依",
                 "topspeech": 0,
+                "all_hits": 12,
                 "subtable_id": 235,
                 "CategoryNew_id": 51,
+                "mediaid": 246117,
+                "mediatype": "mp3",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -1630,6 +1827,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 235,
                             "CategoryNew_id": 51
@@ -1643,7 +1841,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 235,
                             "subtabletag_id": 11
@@ -1655,7 +1853,7 @@
                         "meta_value": "1991~2000",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 4,
+                        "rank": 16,
                         "pivot": {
                             "subtable_id": 235,
                             "subtabletag_id": 23
@@ -1667,7 +1865,7 @@
                         "meta_value": "馬來西亞",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 37,
+                        "rank": 38,
                         "pivot": {
                             "subtable_id": 235,
                             "subtabletag_id": 36
@@ -1710,24 +1908,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-009.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 14:59:27",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈依",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:02:01",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈依",
                 "titlegbalt": "三皈依",
                 "topspeech": 0,
+                "all_hits": 13,
                 "subtable_id": 234,
                 "CategoryNew_id": 51,
+                "mediaid": 246116,
+                "mediatype": "mp3",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -1738,6 +1939,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 234,
                             "CategoryNew_id": 51
@@ -1751,7 +1953,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 234,
                             "subtabletag_id": 11
@@ -1763,7 +1965,7 @@
                         "meta_value": "1991~2000",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 4,
+                        "rank": 16,
                         "pivot": {
                             "subtable_id": 234,
                             "subtabletag_id": 23
@@ -1775,7 +1977,7 @@
                         "meta_value": "新加坡",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 36,
+                        "rank": 37,
                         "pivot": {
                             "subtable_id": 234,
                             "subtabletag_id": 35
@@ -1818,24 +2020,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-008.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 14:59:13",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈依",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:02:01",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈依",
                 "titlegbalt": "三皈依",
                 "topspeech": 0,
+                "all_hits": 11,
                 "subtable_id": 233,
                 "CategoryNew_id": 51,
+                "mediaid": 246115,
+                "mediatype": "mp3",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -1846,6 +2051,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 233,
                             "CategoryNew_id": 51
@@ -1859,7 +2065,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 233,
                             "subtabletag_id": 11
@@ -1871,7 +2077,7 @@
                         "meta_value": "1991~2000",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 4,
+                        "rank": 16,
                         "pivot": {
                             "subtable_id": 233,
                             "subtabletag_id": 23
@@ -1883,7 +2089,7 @@
                         "meta_value": "新加坡",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 36,
+                        "rank": 37,
                         "pivot": {
                             "subtable_id": 233,
                             "subtabletag_id": 35
@@ -1926,24 +2132,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-007.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 14:58:59",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈依",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:02:01",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈依",
                 "titlegbalt": "三皈依",
                 "topspeech": 0,
+                "all_hits": 12,
                 "subtable_id": 232,
                 "CategoryNew_id": 51,
+                "mediaid": 246114,
+                "mediatype": "mp3",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -1954,6 +2163,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 232,
                             "CategoryNew_id": 51
@@ -1967,7 +2177,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 232,
                             "subtabletag_id": 11
@@ -1979,7 +2189,7 @@
                         "meta_value": "1991~2000",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 4,
+                        "rank": 16,
                         "pivot": {
                             "subtable_id": 232,
                             "subtabletag_id": 23
@@ -1991,7 +2201,7 @@
                         "meta_value": "臺灣",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 34,
+                        "rank": 35,
                         "pivot": {
                             "subtable_id": 232,
                             "subtabletag_id": 32
@@ -2034,24 +2244,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-006.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 14:58:45",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈依",
-                "titlegb_at": "2019-07-15 16:06:53",
+                "titlegb_at": "2022-10-20 15:02:01",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈依",
                 "titlegbalt": "三皈依",
                 "topspeech": 0,
+                "all_hits": 12,
                 "subtable_id": 231,
                 "CategoryNew_id": 51,
+                "mediaid": 246113,
+                "mediatype": "mp3",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -2062,6 +2275,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 231,
                             "CategoryNew_id": 51
@@ -2075,7 +2289,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 231,
                             "subtabletag_id": 11
@@ -2087,7 +2301,7 @@
                         "meta_value": "1981~1990",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 3,
+                        "rank": 17,
                         "pivot": {
                             "subtable_id": 231,
                             "subtabletag_id": 22
@@ -2099,7 +2313,7 @@
                         "meta_value": "新加坡",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 36,
+                        "rank": 37,
                         "pivot": {
                             "subtable_id": 231,
                             "subtabletag_id": 35
@@ -2142,24 +2356,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-005.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 14:58:31",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈依",
-                "titlegb_at": "2019-07-15 16:06:52",
+                "titlegb_at": "2022-10-20 15:02:01",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈依",
                 "titlegbalt": "三皈依",
                 "topspeech": 0,
+                "all_hits": 9,
                 "subtable_id": 230,
                 "CategoryNew_id": 51,
+                "mediaid": 246111,
+                "mediatype": "mp3",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -2170,6 +2387,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 230,
                             "CategoryNew_id": 51
@@ -2183,7 +2401,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 230,
                             "subtabletag_id": 11
@@ -2195,7 +2413,7 @@
                         "meta_value": "1991~2000",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 4,
+                        "rank": 16,
                         "pivot": {
                             "subtable_id": 230,
                             "subtabletag_id": 23
@@ -2207,7 +2425,7 @@
                         "meta_value": "香港",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 35,
+                        "rank": 36,
                         "pivot": {
                             "subtable_id": 230,
                             "subtabletag_id": 33
@@ -2233,7 +2451,7 @@
                 "hits": 0,
                 "netprogress": null,
                 "comments": null,
-                "txt": 0,
+                "txt": 1,
                 "mp3": 1,
                 "wmv": 0,
                 "hiwmv": 0,
@@ -2250,24 +2468,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-004.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 14:58:19",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈依",
-                "titlegb_at": "2019-07-15 16:06:52",
+                "titlegb_at": "2022-10-20 15:02:01",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈依",
                 "titlegbalt": "三皈依",
                 "topspeech": 0,
+                "all_hits": 5,
                 "subtable_id": 229,
                 "CategoryNew_id": 51,
+                "mediaid": 246110,
+                "mediatype": "mp3",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -2278,6 +2499,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 229,
                             "CategoryNew_id": 51
@@ -2291,7 +2513,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 229,
                             "subtabletag_id": 11
@@ -2303,7 +2525,7 @@
                         "meta_value": "1981~1990",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 3,
+                        "rank": 17,
                         "pivot": {
                             "subtable_id": 229,
                             "subtabletag_id": 22
@@ -2315,7 +2537,7 @@
                         "meta_value": "臺灣",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 34,
+                        "rank": 35,
                         "pivot": {
                             "subtable_id": 229,
                             "subtabletag_id": 32
@@ -2358,24 +2580,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-003.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 14:58:05",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈依",
-                "titlegb_at": "2019-07-15 16:06:52",
+                "titlegb_at": "2022-10-20 15:02:01",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈依",
                 "titlegbalt": "三皈依",
                 "topspeech": 0,
+                "all_hits": 13,
                 "subtable_id": 228,
                 "CategoryNew_id": 51,
+                "mediaid": 246109,
+                "mediatype": "mp3",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -2386,6 +2611,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 228,
                             "CategoryNew_id": 51
@@ -2399,7 +2625,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 228,
                             "subtabletag_id": 11
@@ -2411,7 +2637,7 @@
                         "meta_value": "1981~1990",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 3,
+                        "rank": 17,
                         "pivot": {
                             "subtable_id": 228,
                             "subtabletag_id": 22
@@ -2423,7 +2649,7 @@
                         "meta_value": "臺灣",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 34,
+                        "rank": 35,
                         "pivot": {
                             "subtable_id": 228,
                             "subtabletag_id": 32
@@ -2466,24 +2692,27 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": "",
+                "logo": "images/16-002.jpg",
                 "image": 0,
-                "updatetime": "2011-07-01 11:25:32",
+                "updatetime": "2022-10-20 14:57:40",
                 "updateman": "SYSTEM_BOT",
                 "ispublic": 1,
                 "flag": 0,
                 "category_AMTB_ID": 51,
                 "createtime": null,
                 "titlegb": "三皈五戒大意",
-                "titlegb_at": "2019-07-15 16:06:52",
+                "titlegb_at": "2022-10-20 15:02:01",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
                 "titlealt": "三皈五戒大意",
                 "titlegbalt": "三皈五戒大意",
                 "topspeech": 0,
+                "all_hits": 8,
                 "subtable_id": 227,
                 "CategoryNew_id": 51,
+                "mediaid": 246108,
+                "mediatype": "mp3",
                 "new_categories": [
                     {
                         "AMTB_ID": 51,
@@ -2494,6 +2723,7 @@
                         "level": 9,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": 249,
                         "pivot": {
                             "subtable_id": 227,
                             "CategoryNew_id": 51
@@ -2507,7 +2737,7 @@
                         "meta_value": "淨空老法師",
                         "parent_id": 2,
                         "isShow": 1,
-                        "rank": 19,
+                        "rank": 20,
                         "pivot": {
                             "subtable_id": 227,
                             "subtabletag_id": 11
@@ -2519,7 +2749,7 @@
                         "meta_value": "1981~1990",
                         "parent_id": 1,
                         "isShow": 1,
-                        "rank": 3,
+                        "rank": 17,
                         "pivot": {
                             "subtable_id": 227,
                             "subtabletag_id": 22
@@ -2531,7 +2761,7 @@
                         "meta_value": "臺灣",
                         "parent_id": 3,
                         "isShow": 1,
-                        "rank": 34,
+                        "rank": 35,
                         "pivot": {
                             "subtable_id": 227,
                             "subtabletag_id": 32
@@ -2548,37 +2778,41 @@
         "path": "https://work.hwadzan.org/api/hwadzan/v2/newcategory/51",
         "per_page": 100000,
         "prev_page_url": null,
-        "to": 23,
-        "total": 23
+        "to": 24,
+        "total": 24
     },
     "topspeech": {
         "name": "悟道法師置頂講演",
+        "data": []
+    },
+    "hotspeech": {
+        "name": "悟道法師熱門講演",
         "data": [
             {
-                "id": 5720,
-                "menuid": "WD15-008",
-                "menuidparent": "WD15",
-                "menuidchild": 8,
+                "id": 4419,
+                "menuid": "WD19-025",
+                "menuidparent": "WD19",
+                "menuidchild": 25,
                 "voice": "",
-                "title": "金剛經講義節要",
+                "title": "安士全書",
                 "speechmaker": "悟道法師",
-                "speechdate": "2020.3.27",
-                "speechplace": "華藏淨宗學會",
+                "speechdate": "2015.12.29",
+                "speechplace": "中國上海、澳洲淨宗學院",
                 "introduction": null,
-                "numbers": 56,
-                "numbers_manual": 5,
+                "numbers": 78,
+                "numbers_manual": 30,
                 "teachingbook": null,
                 "referencebook": null,
                 "hits": 0,
                 "netprogress": null,
-                "comments": "續講中",
+                "comments": null,
                 "txt": 1,
                 "mp3": 1,
                 "wmv": 0,
                 "hiwmv": 0,
                 "mp4": 1,
                 "himp4": 1,
-                "stb": 0,
+                "stb": 1,
                 "rmvb": 0,
                 "flv": 0,
                 "avi": 0,
@@ -2589,126 +2823,92 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": null,
+                "logo": "images/WD19-025.jpg",
                 "image": 0,
-                "updatetime": "2021-01-21 17:09:23",
+                "updatetime": "2024-07-22 14:29:22",
                 "updateman": "",
                 "ispublic": 1,
                 "flag": 0,
-                "category_AMTB_ID": 96,
+                "category_AMTB_ID": 48,
                 "createtime": null,
-                "titlegb": "金刚经讲义节要",
-                "titlegb_at": "2021-01-21 17:17:15",
+                "titlegb": "安士全书",
+                "titlegb_at": "2024-07-22 14:31:44",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
-                "titlealt": "金剛經講義節要",
-                "titlegbalt": "金刚经讲义节要",
-                "topspeech": 80,
-                "subtable_id": 5720,
-                "CategoryNew_id": 96,
+                "titlealt": "安士全書",
+                "titlegbalt": "安士全书",
+                "topspeech": 0,
+                "all_hits": 2887,
                 "new_categories": [
                     {
-                        "AMTB_ID": 96,
+                        "AMTB_ID": 48,
                         "isShow": 1,
-                        "AMTB_NAME": "佛經",
-                        "postAt": "2012-06-26 11:25:05",
+                        "AMTB_NAME": "因果教育",
+                        "postAt": "2012-06-20 15:19:06",
                         "AMTB_PARENT_ID": 15,
-                        "level": 94,
+                        "level": 101,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": null,
                         "pivot": {
-                            "subtable_id": 5720,
-                            "CategoryNew_id": 96
+                            "subtable_id": 4419,
+                            "CategoryNew_id": 48
                         }
                     }
                 ],
-                "subtable_tags": []
+                "subtable_tags": [
+                    {
+                        "id": 12,
+                        "meta_comments": "",
+                        "meta_value": "悟道法師",
+                        "parent_id": 2,
+                        "isShow": 1,
+                        "rank": 21,
+                        "pivot": {
+                            "subtable_id": 4419,
+                            "subtabletag_id": 12
+                        }
+                    },
+                    {
+                        "id": 29,
+                        "meta_comments": "",
+                        "meta_value": "2015",
+                        "parent_id": 1,
+                        "isShow": 1,
+                        "rank": 10,
+                        "pivot": {
+                            "subtable_id": 4419,
+                            "subtabletag_id": 29
+                        }
+                    },
+                    {
+                        "id": 43,
+                        "meta_comments": "",
+                        "meta_value": "大陸",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 45,
+                        "pivot": {
+                            "subtable_id": 4419,
+                            "subtabletag_id": 43
+                        }
+                    }
+                ]
             },
             {
-                "id": 5743,
-                "menuid": "WD14-012",
+                "id": 4558,
+                "menuid": "WD14-007",
                 "menuidparent": "WD14",
-                "menuidchild": 12,
+                "menuidchild": 7,
                 "voice": "",
-                "title": "地藏經玄義",
+                "title": "地藏菩薩本願經",
                 "speechmaker": "悟道法師",
-                "speechdate": "2020.9.16",
-                "speechplace": "華藏淨宗學會",
+                "speechdate": "2016.06.12",
+                "speechplace": "英國倫敦 英國華藏淨宗學會",
                 "introduction": null,
-                "numbers": 50,
-                "numbers_manual": 1,
-                "teachingbook": null,
-                "referencebook": null,
-                "hits": 0,
-                "netprogress": null,
-                "comments": "續講中",
-                "txt": 1,
-                "mp3": 1,
-                "wmv": 0,
-                "hiwmv": 0,
-                "mp4": 1,
-                "himp4": 1,
-                "stb": 0,
-                "rmvb": 0,
-                "flv": 0,
-                "avi": 0,
-                "m2p": 0,
-                "xml": 0,
-                "nlf": 0,
-                "tcf": 0,
-                "vcd": 0,
-                "dvd": 0,
-                "hdtv": 0,
-                "logo": null,
-                "image": 0,
-                "updatetime": "2021-01-21 17:09:47",
-                "updateman": "",
-                "ispublic": 1,
-                "flag": 0,
-                "category_AMTB_ID": 47,
-                "createtime": null,
-                "titlegb": "地藏经玄义",
-                "titlegb_at": "2021-01-21 17:17:15",
-                "voices": "",
-                "photography_unit": null,
-                "schedulepublic": null,
-                "titlealt": "地藏經玄義",
-                "titlegbalt": "地藏经玄义",
-                "topspeech": 60,
-                "subtable_id": 5743,
-                "CategoryNew_id": 47,
-                "new_categories": [
-                    {
-                        "AMTB_ID": 47,
-                        "isShow": 1,
-                        "AMTB_NAME": "地藏經",
-                        "postAt": "2012-06-20 15:18:41",
-                        "AMTB_PARENT_ID": 15,
-                        "level": 95,
-                        "amtborder": 0,
-                        "logo": null,
-                        "pivot": {
-                            "subtable_id": 5743,
-                            "CategoryNew_id": 47
-                        }
-                    }
-                ],
-                "subtable_tags": []
-            },
-            {
-                "id": 5745,
-                "menuid": "WD20-050",
-                "menuidparent": "WD20",
-                "menuidchild": 50,
-                "voice": "",
-                "title": "《群書治要３６Ｏ》第一冊",
-                "speechmaker": "悟道法師",
-                "speechdate": "2020.9.18",
-                "speechplace": "華藏淨宗學會",
-                "introduction": null,
-                "numbers": 360,
-                "numbers_manual": 360,
+                "numbers": 29,
+                "numbers_manual": 29,
                 "teachingbook": null,
                 "referencebook": null,
                 "hits": 0,
@@ -2731,37 +2931,763 @@
                 "vcd": 0,
                 "dvd": 0,
                 "hdtv": 0,
-                "logo": null,
+                "logo": "images/WD14-007.jpg",
                 "image": 0,
-                "updatetime": "2021-08-02 09:45:25",
+                "updatetime": "2024-07-22 14:23:50",
                 "updateman": "",
                 "ispublic": 1,
                 "flag": 0,
-                "category_AMTB_ID": 96,
+                "category_AMTB_ID": 47,
                 "createtime": null,
-                "titlegb": "《群书治要３６Ｏ》第一册",
-                "titlegb_at": "2021-08-02 09:47:13",
+                "titlegb": "地藏菩萨本愿经",
+                "titlegb_at": "2024-07-22 14:31:44",
                 "voices": "",
                 "photography_unit": null,
                 "schedulepublic": null,
-                "titlealt": "《群書治要３６Ｏ》第一冊",
-                "titlegbalt": "《群书治要３６Ｏ》第一册",
-                "topspeech": 40,
-                "subtable_id": 5745,
-                "CategoryNew_id": 188,
+                "titlealt": "地藏菩薩本願經",
+                "titlegbalt": "地藏菩萨本愿经",
+                "topspeech": 0,
+                "all_hits": 538,
                 "new_categories": [
                     {
-                        "AMTB_ID": 188,
+                        "AMTB_ID": 47,
                         "isShow": 1,
-                        "AMTB_NAME": "儒學",
-                        "postAt": "2021-02-05 20:34:03",
+                        "AMTB_NAME": "地藏經",
+                        "postAt": "2012-06-20 15:18:41",
                         "AMTB_PARENT_ID": 15,
-                        "level": 97,
+                        "level": 98,
                         "amtborder": 0,
                         "logo": null,
+                        "recommendedsubtableid": null,
                         "pivot": {
-                            "subtable_id": 5745,
-                            "CategoryNew_id": 188
+                            "subtable_id": 4558,
+                            "CategoryNew_id": 47
+                        }
+                    }
+                ],
+                "subtable_tags": [
+                    {
+                        "id": 12,
+                        "meta_comments": "",
+                        "meta_value": "悟道法師",
+                        "parent_id": 2,
+                        "isShow": 1,
+                        "rank": 21,
+                        "pivot": {
+                            "subtable_id": 4558,
+                            "subtabletag_id": 12
+                        }
+                    },
+                    {
+                        "id": 30,
+                        "meta_comments": "",
+                        "meta_value": "2016",
+                        "parent_id": 1,
+                        "isShow": 1,
+                        "rank": 9,
+                        "pivot": {
+                            "subtable_id": 4558,
+                            "subtabletag_id": 30
+                        }
+                    },
+                    {
+                        "id": 42,
+                        "meta_comments": "",
+                        "meta_value": "歐洲",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 44,
+                        "pivot": {
+                            "subtable_id": 4558,
+                            "subtabletag_id": 42
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 5785,
+                "menuid": "62-298",
+                "menuidparent": "62",
+                "menuidchild": 298,
+                "voice": "",
+                "title": "念佛共修",
+                "speechmaker": "-",
+                "speechdate": null,
+                "speechplace": null,
+                "introduction": null,
+                "numbers": 1,
+                "numbers_manual": 1,
+                "teachingbook": null,
+                "referencebook": null,
+                "hits": 0,
+                "netprogress": null,
+                "comments": null,
+                "txt": 0,
+                "mp3": 1,
+                "wmv": 0,
+                "hiwmv": 0,
+                "mp4": 1,
+                "himp4": 1,
+                "stb": 0,
+                "rmvb": 0,
+                "flv": 0,
+                "avi": 0,
+                "m2p": 0,
+                "xml": 0,
+                "nlf": 0,
+                "tcf": 0,
+                "vcd": 0,
+                "dvd": 0,
+                "hdtv": 0,
+                "logo": "images/62-298.jpg",
+                "image": 0,
+                "updatetime": "2024-11-07 14:11:00",
+                "updateman": "",
+                "ispublic": 1,
+                "flag": 0,
+                "category_AMTB_ID": 90,
+                "createtime": null,
+                "titlegb": "念佛共修",
+                "titlegb_at": "2024-11-07 14:16:50",
+                "voices": "",
+                "photography_unit": "華藏影音組剪接製作",
+                "schedulepublic": null,
+                "titlealt": "念佛共修",
+                "titlegbalt": "念佛共修",
+                "topspeech": 0,
+                "all_hits": 321,
+                "new_categories": [
+                    {
+                        "AMTB_ID": 90,
+                        "isShow": 1,
+                        "AMTB_NAME": "念佛",
+                        "postAt": "2012-06-24 20:58:43",
+                        "AMTB_PARENT_ID": 60,
+                        "level": 115,
+                        "amtborder": 0,
+                        "logo": null,
+                        "recommendedsubtableid": null,
+                        "pivot": {
+                            "subtable_id": 5785,
+                            "CategoryNew_id": 90
+                        }
+                    }
+                ],
+                "subtable_tags": [
+                    {
+                        "id": 32,
+                        "meta_comments": "",
+                        "meta_value": "臺灣",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 35,
+                        "pivot": {
+                            "subtable_id": 5785,
+                            "subtabletag_id": 32
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 4410,
+                "menuid": "61-233",
+                "menuidparent": "61",
+                "menuidchild": 233,
+                "voice": "",
+                "title": "地鐘念佛、地鐘念佛一支香",
+                "speechmaker": "悟道法師領眾",
+                "speechdate": "2013.12",
+                "speechplace": "香港國際機場亞洲國際博覽館",
+                "introduction": null,
+                "numbers": 2,
+                "numbers_manual": 2,
+                "teachingbook": null,
+                "referencebook": null,
+                "hits": 0,
+                "netprogress": null,
+                "comments": null,
+                "txt": 0,
+                "mp3": 1,
+                "wmv": 0,
+                "hiwmv": 0,
+                "mp4": 0,
+                "himp4": 0,
+                "stb": 0,
+                "rmvb": 0,
+                "flv": 0,
+                "avi": 0,
+                "m2p": 0,
+                "xml": 0,
+                "nlf": 0,
+                "tcf": 0,
+                "vcd": 0,
+                "dvd": 0,
+                "hdtv": 0,
+                "logo": "images/61-233.jpg",
+                "image": 0,
+                "updatetime": "2024-11-07 14:06:10",
+                "updateman": "",
+                "ispublic": 1,
+                "flag": 0,
+                "category_AMTB_ID": 90,
+                "createtime": null,
+                "titlegb": "地钟念佛、地钟念佛一支香",
+                "titlegb_at": "2024-11-07 14:16:50",
+                "voices": "",
+                "photography_unit": null,
+                "schedulepublic": null,
+                "titlealt": "地鐘念佛、地鐘念佛一支香",
+                "titlegbalt": "地钟念佛、地钟念佛一支香",
+                "topspeech": 0,
+                "all_hits": 295,
+                "new_categories": [
+                    {
+                        "AMTB_ID": 90,
+                        "isShow": 1,
+                        "AMTB_NAME": "念佛",
+                        "postAt": "2012-06-24 20:58:43",
+                        "AMTB_PARENT_ID": 60,
+                        "level": 115,
+                        "amtborder": 0,
+                        "logo": null,
+                        "recommendedsubtableid": null,
+                        "pivot": {
+                            "subtable_id": 4410,
+                            "CategoryNew_id": 90
+                        }
+                    }
+                ],
+                "subtable_tags": [
+                    {
+                        "id": 12,
+                        "meta_comments": "",
+                        "meta_value": "悟道法師",
+                        "parent_id": 2,
+                        "isShow": 1,
+                        "rank": 21,
+                        "pivot": {
+                            "subtable_id": 4410,
+                            "subtabletag_id": 12
+                        }
+                    },
+                    {
+                        "id": 27,
+                        "meta_comments": "",
+                        "meta_value": "2013",
+                        "parent_id": 1,
+                        "isShow": 1,
+                        "rank": 12,
+                        "pivot": {
+                            "subtable_id": 4410,
+                            "subtabletag_id": 27
+                        }
+                    },
+                    {
+                        "id": 33,
+                        "meta_comments": "",
+                        "meta_value": "香港",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 36,
+                        "pivot": {
+                            "subtable_id": 4410,
+                            "subtabletag_id": 33
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 5709,
+                "menuid": "WD32-077",
+                "menuidparent": "WD32",
+                "menuidchild": 77,
+                "voice": "",
+                "title": "華藏淨宗學會宜蘭念佛堂三時繫念法會開示",
+                "speechmaker": "悟道法師",
+                "speechdate": "2020.3.8",
+                "speechplace": "華藏淨宗學會宜蘭念佛堂",
+                "introduction": null,
+                "numbers": 27,
+                "numbers_manual": 3,
+                "teachingbook": null,
+                "referencebook": null,
+                "hits": 0,
+                "netprogress": null,
+                "comments": null,
+                "txt": 1,
+                "mp3": 1,
+                "wmv": 0,
+                "hiwmv": 0,
+                "mp4": 1,
+                "himp4": 1,
+                "stb": 0,
+                "rmvb": 0,
+                "flv": 0,
+                "avi": 0,
+                "m2p": 0,
+                "xml": 0,
+                "nlf": 0,
+                "tcf": 0,
+                "vcd": 0,
+                "dvd": 0,
+                "hdtv": 0,
+                "logo": "images/WD32-077.jpg",
+                "image": 0,
+                "updatetime": "2024-08-19 16:20:07",
+                "updateman": "",
+                "ispublic": 1,
+                "flag": 0,
+                "category_AMTB_ID": 49,
+                "createtime": null,
+                "titlegb": "华藏净宗学会宜兰念佛堂三时系念法会开示",
+                "titlegb_at": "2024-08-19 16:31:38",
+                "voices": "",
+                "photography_unit": "華藏影音組",
+                "schedulepublic": null,
+                "titlealt": "華藏淨宗學會宜蘭念佛堂三時繫念法會開示",
+                "titlegbalt": "华藏净宗学会宜兰念佛堂三时系念法会开示",
+                "topspeech": 0,
+                "all_hits": 192,
+                "new_categories": [
+                    {
+                        "AMTB_ID": 49,
+                        "isShow": 1,
+                        "AMTB_NAME": "開示講話",
+                        "postAt": "2012-06-20 15:19:22",
+                        "AMTB_PARENT_ID": 17,
+                        "level": 90,
+                        "amtborder": 0,
+                        "logo": null,
+                        "recommendedsubtableid": null,
+                        "pivot": {
+                            "subtable_id": 5709,
+                            "CategoryNew_id": 49
+                        }
+                    }
+                ],
+                "subtable_tags": [
+                    {
+                        "id": 12,
+                        "meta_comments": "",
+                        "meta_value": "悟道法師",
+                        "parent_id": 2,
+                        "isShow": 1,
+                        "rank": 21,
+                        "pivot": {
+                            "subtable_id": 5709,
+                            "subtabletag_id": 12
+                        }
+                    },
+                    {
+                        "id": 32,
+                        "meta_comments": "",
+                        "meta_value": "臺灣",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 35,
+                        "pivot": {
+                            "subtable_id": 5709,
+                            "subtabletag_id": 32
+                        }
+                    },
+                    {
+                        "id": 64,
+                        "meta_comments": "",
+                        "meta_value": "2020",
+                        "parent_id": 1,
+                        "isShow": 1,
+                        "rank": 5,
+                        "pivot": {
+                            "subtable_id": 5709,
+                            "subtabletag_id": 64
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 2066,
+                "menuid": "WD05-001",
+                "menuidparent": "WD05",
+                "menuidchild": 1,
+                "voice": "",
+                "title": "大勢至菩薩念佛圓通章疏鈔菁華",
+                "speechmaker": "悟道法師",
+                "speechdate": "2000.9.8-9.13",
+                "speechplace": "新加坡佛教居士林",
+                "introduction": null,
+                "numbers": 5,
+                "numbers_manual": 5,
+                "teachingbook": null,
+                "referencebook": null,
+                "hits": 0,
+                "netprogress": null,
+                "comments": null,
+                "txt": 1,
+                "mp3": 1,
+                "wmv": 0,
+                "hiwmv": 0,
+                "mp4": 1,
+                "himp4": 1,
+                "stb": 0,
+                "rmvb": 0,
+                "flv": 0,
+                "avi": 0,
+                "m2p": 0,
+                "xml": 0,
+                "nlf": 0,
+                "tcf": 0,
+                "vcd": 0,
+                "dvd": 0,
+                "hdtv": 0,
+                "logo": "images/WD05-001.jpg",
+                "image": 0,
+                "updatetime": "2024-07-09 16:11:30",
+                "updateman": "SYSTEM_BOT",
+                "ispublic": 1,
+                "flag": 1,
+                "category_AMTB_ID": 94,
+                "createtime": null,
+                "titlegb": "大势至菩萨念佛圆通章疏钞菁华",
+                "titlegb_at": "2024-07-09 16:18:31",
+                "voices": "",
+                "photography_unit": null,
+                "schedulepublic": null,
+                "titlealt": "大勢至菩薩念佛圓通章疏鈔菁華",
+                "titlegbalt": "大势至菩萨念佛圆通章疏钞菁华",
+                "topspeech": 0,
+                "all_hits": 178,
+                "new_categories": [
+                    {
+                        "AMTB_ID": 94,
+                        "isShow": 1,
+                        "AMTB_NAME": "念佛圓通章",
+                        "postAt": "2012-06-25 09:21:39",
+                        "AMTB_PARENT_ID": 14,
+                        "level": 86,
+                        "amtborder": 0,
+                        "logo": null,
+                        "recommendedsubtableid": null,
+                        "pivot": {
+                            "subtable_id": 2066,
+                            "CategoryNew_id": 94
+                        }
+                    },
+                    {
+                        "AMTB_ID": 176,
+                        "isShow": 1,
+                        "AMTB_NAME": "閩南語",
+                        "postAt": "2021-01-28 14:13:37",
+                        "AMTB_PARENT_ID": 175,
+                        "level": 145,
+                        "amtborder": 0,
+                        "logo": null,
+                        "recommendedsubtableid": null,
+                        "pivot": {
+                            "subtable_id": 2066,
+                            "CategoryNew_id": 176
+                        }
+                    }
+                ],
+                "subtable_tags": [
+                    {
+                        "id": 12,
+                        "meta_comments": "",
+                        "meta_value": "悟道法師",
+                        "parent_id": 2,
+                        "isShow": 1,
+                        "rank": 21,
+                        "pivot": {
+                            "subtable_id": 2066,
+                            "subtabletag_id": 12
+                        }
+                    },
+                    {
+                        "id": 23,
+                        "meta_comments": "",
+                        "meta_value": "1991~2000",
+                        "parent_id": 1,
+                        "isShow": 1,
+                        "rank": 16,
+                        "pivot": {
+                            "subtable_id": 2066,
+                            "subtabletag_id": 23
+                        }
+                    },
+                    {
+                        "id": 35,
+                        "meta_comments": "",
+                        "meta_value": "新加坡",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 37,
+                        "pivot": {
+                            "subtable_id": 2066,
+                            "subtabletag_id": 35
+                        }
+                    },
+                    {
+                        "id": 50,
+                        "meta_comments": "MN",
+                        "meta_value": "閩南語",
+                        "parent_id": 5,
+                        "isShow": 1,
+                        "rank": 53,
+                        "pivot": {
+                            "subtable_id": 2066,
+                            "subtabletag_id": 50
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 2543,
+                "menuid": "56-052",
+                "menuidparent": "56",
+                "menuidchild": 52,
+                "voice": "",
+                "title": "弘揚中華文化 構建和諧社會 青島第三屆全國企業家論壇暨慶祝2010年中華母親節活動－學習《弟子規》落實在感恩 改過",
+                "speechmaker": "胡小林董事長",
+                "speechdate": "2010.5.3",
+                "speechplace": "中國山東青島",
+                "introduction": null,
+                "numbers": 2,
+                "numbers_manual": 2,
+                "teachingbook": null,
+                "referencebook": null,
+                "hits": 0,
+                "netprogress": null,
+                "comments": null,
+                "txt": 0,
+                "mp3": 1,
+                "wmv": 0,
+                "hiwmv": 0,
+                "mp4": 1,
+                "himp4": 1,
+                "stb": 0,
+                "rmvb": 0,
+                "flv": 0,
+                "avi": 0,
+                "m2p": 0,
+                "xml": 0,
+                "nlf": 0,
+                "tcf": 0,
+                "vcd": 0,
+                "dvd": 0,
+                "hdtv": 0,
+                "logo": "images/56-052.jpg",
+                "image": 0,
+                "updatetime": "2024-10-04 15:45:05",
+                "updateman": "",
+                "ispublic": 1,
+                "flag": 0,
+                "category_AMTB_ID": 81,
+                "createtime": null,
+                "titlegb": "弘扬中华文化 构建和谐社会 青岛第三届全国企业家论坛暨庆祝2010年中华母亲节活动－学习《弟子规》落实在感恩 改过",
+                "titlegb_at": "2024-10-04 15:47:21",
+                "voices": "",
+                "photography_unit": null,
+                "schedulepublic": null,
+                "titlealt": "弘揚中華文化 構建和諧社會 青島第三屆全國企業家論壇暨慶祝2010年中華母親節活動－學習《弟子規》落實在感恩 改過",
+                "titlegbalt": "弘扬中华文化 构建和谐社会 青岛第三届全国企业家论坛暨庆祝2010年中华母亲节活动－学习《弟子规》落实在感恩 改过",
+                "topspeech": 0,
+                "all_hits": 161,
+                "new_categories": [
+                    {
+                        "AMTB_ID": 80,
+                        "isShow": 1,
+                        "AMTB_NAME": "劉素雲老師",
+                        "postAt": "2012-06-22 13:02:53",
+                        "AMTB_PARENT_ID": 187,
+                        "level": 132,
+                        "amtborder": 0,
+                        "logo": null,
+                        "recommendedsubtableid": null,
+                        "pivot": {
+                            "subtable_id": 2543,
+                            "CategoryNew_id": 80
+                        }
+                    },
+                    {
+                        "AMTB_ID": 81,
+                        "isShow": 1,
+                        "AMTB_NAME": "胡小林老師",
+                        "postAt": "2012-06-22 13:03:02",
+                        "AMTB_PARENT_ID": 187,
+                        "level": 131,
+                        "amtborder": 0,
+                        "logo": null,
+                        "recommendedsubtableid": null,
+                        "pivot": {
+                            "subtable_id": 2543,
+                            "CategoryNew_id": 81
+                        }
+                    },
+                    {
+                        "AMTB_ID": 82,
+                        "isShow": 1,
+                        "AMTB_NAME": "更多講演者",
+                        "postAt": "2012-06-22 13:03:15",
+                        "AMTB_PARENT_ID": 187,
+                        "level": 133,
+                        "amtborder": 0,
+                        "logo": null,
+                        "recommendedsubtableid": null,
+                        "pivot": {
+                            "subtable_id": 2543,
+                            "CategoryNew_id": 82
+                        }
+                    },
+                    {
+                        "AMTB_ID": 85,
+                        "isShow": 1,
+                        "AMTB_NAME": "周泳杉老師",
+                        "postAt": "2012-06-22 13:03:47",
+                        "AMTB_PARENT_ID": 187,
+                        "level": 130,
+                        "amtborder": 0,
+                        "logo": null,
+                        "recommendedsubtableid": null,
+                        "pivot": {
+                            "subtable_id": 2543,
+                            "CategoryNew_id": 85
+                        }
+                    },
+                    {
+                        "AMTB_ID": 141,
+                        "isShow": 1,
+                        "AMTB_NAME": "黃柏霖警官",
+                        "postAt": "2014-06-04 11:35:17",
+                        "AMTB_PARENT_ID": 187,
+                        "level": 129,
+                        "amtborder": 0,
+                        "logo": null,
+                        "recommendedsubtableid": null,
+                        "pivot": {
+                            "subtable_id": 2543,
+                            "CategoryNew_id": 141
+                        }
+                    },
+                    {
+                        "AMTB_ID": 184,
+                        "isShow": 1,
+                        "AMTB_NAME": "活動紀實",
+                        "postAt": "2021-02-04 17:58:52",
+                        "AMTB_PARENT_ID": 62,
+                        "level": 120,
+                        "amtborder": 0,
+                        "logo": null,
+                        "recommendedsubtableid": null,
+                        "pivot": {
+                            "subtable_id": 2543,
+                            "CategoryNew_id": 184
+                        }
+                    }
+                ],
+                "subtable_tags": [
+                    {
+                        "id": 18,
+                        "meta_comments": "",
+                        "meta_value": "胡小林老師",
+                        "parent_id": 2,
+                        "isShow": 1,
+                        "rank": 27,
+                        "pivot": {
+                            "subtable_id": 2543,
+                            "subtabletag_id": 18
+                        }
+                    },
+                    {
+                        "id": 24,
+                        "meta_comments": "",
+                        "meta_value": "2001~2010",
+                        "parent_id": 1,
+                        "isShow": 1,
+                        "rank": 15,
+                        "pivot": {
+                            "subtable_id": 2543,
+                            "subtabletag_id": 24
+                        }
+                    },
+                    {
+                        "id": 43,
+                        "meta_comments": "",
+                        "meta_value": "大陸",
+                        "parent_id": 3,
+                        "isShow": 1,
+                        "rank": 45,
+                        "pivot": {
+                            "subtable_id": 2543,
+                            "subtabletag_id": 43
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 5655,
+                "menuid": "63-008",
+                "menuidparent": "63",
+                "menuidchild": 8,
+                "voice": "",
+                "title": "三時繫念教學",
+                "speechmaker": "悟道法師",
+                "speechdate": "2003.2.25-26",
+                "speechplace": "香港佛陀教育協會",
+                "introduction": null,
+                "numbers": 4,
+                "numbers_manual": 4,
+                "teachingbook": null,
+                "referencebook": null,
+                "hits": 0,
+                "netprogress": null,
+                "comments": null,
+                "txt": 1,
+                "mp3": 1,
+                "wmv": 0,
+                "hiwmv": 0,
+                "mp4": 1,
+                "himp4": 1,
+                "stb": 0,
+                "rmvb": 0,
+                "flv": 0,
+                "avi": 0,
+                "m2p": 0,
+                "xml": 0,
+                "nlf": 0,
+                "tcf": 0,
+                "vcd": 0,
+                "dvd": 0,
+                "hdtv": 0,
+                "logo": "images/63-008.jpg",
+                "image": 0,
+                "updatetime": "2024-09-16 15:24:58",
+                "updateman": "",
+                "ispublic": 1,
+                "flag": 0,
+                "category_AMTB_ID": null,
+                "createtime": null,
+                "titlegb": "三时系念教学",
+                "titlegb_at": "2024-09-16 15:31:54",
+                "voices": "",
+                "photography_unit": null,
+                "schedulepublic": null,
+                "titlealt": "三時繫念教學",
+                "titlegbalt": "三时系念教学",
+                "topspeech": 0,
+                "all_hits": 144,
+                "new_categories": [
+                    {
+                        "AMTB_ID": 142,
+                        "isShow": 1,
+                        "AMTB_NAME": "梵唄教學",
+                        "postAt": "2014-08-29 10:40:46",
+                        "AMTB_PARENT_ID": 60,
+                        "level": 117,
+                        "amtborder": 0,
+                        "logo": null,
+                        "recommendedsubtableid": null,
+                        "pivot": {
+                            "subtable_id": 5655,
+                            "CategoryNew_id": 142
                         }
                     }
                 ],
@@ -2769,126 +3695,130 @@
             }
         ]
     },
+    "topspeechhome": {
+        "name": "悟道法師置頂講演",
+        "data": []
+    },
     "recentspeech": [
         {
-            "id": 345078,
+            "id": 393034,
             "itemidparent": "WD20",
-            "itemidchild": 53,
-            "num": 39,
-            "numdesc": "第39集",
+            "itemidchild": 64,
+            "num": 92,
+            "numdesc": "第92集",
             "voice": "",
-            "menuid": "WD20-053",
-            "itemid": "WD20-053-0039",
-            "title": "緇門崇行錄淺述",
-            "itemdate": "2021.07.02",
-            "speechplace": "台灣台北靈巖山寺雙溪小築",
-            "speechmaker": "悟道法師",
-            "poster": "poster/WD20/WD20-053/WD20-053-0039.jpg"
-        },
-        {
-            "id": 345075,
-            "itemidparent": "WD20",
-            "itemidchild": 54,
-            "num": 175,
-            "numdesc": "第175集",
-            "voice": "",
-            "menuid": "WD20-054",
-            "itemid": "WD20-054-0175",
-            "title": "《群書治要３６Ｏ》第二冊",
-            "itemdate": "2022.3.6",
+            "menuid": "WD20-064",
+            "itemid": "WD20-064-0092",
+            "title": "群書治要360 講記",
+            "itemdate": "2024.11.27",
             "speechplace": "華藏淨宗學會",
             "speechmaker": "悟道法師",
-            "poster": "poster/WD20/WD20-054/WD20-054-0175.jpg"
+            "poster": "poster/WD20/WD20-064/WD20-064-0092.png"
         },
         {
-            "id": 345050,
+            "id": 393033,
+            "itemidparent": "68",
+            "itemidchild": 1,
+            "num": 205,
+            "numdesc": "第205集",
+            "voice": "",
+            "menuid": "68-001",
+            "itemid": "68-001-0205",
+            "title": "小沙彌",
+            "itemdate": "",
+            "speechplace": null,
+            "speechmaker": "-",
+            "poster": "poster/68/68-001/68-001-0205.png"
+        },
+        {
+            "id": 393015,
+            "itemidparent": "62",
+            "itemidchild": 321,
+            "num": 2,
+            "numdesc": "第2集",
+            "voice": "",
+            "menuid": "62-321",
+            "itemid": "62-321-0002",
+            "title": "2024 歲次甲辰第六屆新馬印護國息災超薦繫念法會",
+            "itemdate": "2024.09.21-22",
+            "speechplace": "新加坡博覽中心第2展覽廳",
+            "speechmaker": "悟道法師主法 ",
+            "poster": "poster/62/62-321/62-321-0002.png"
+        },
+        {
+            "id": 392507,
+            "itemidparent": "62",
+            "itemidchild": 319,
+            "num": 1,
+            "numdesc": "第1集",
+            "voice": "",
+            "menuid": "62-319",
+            "itemid": "62-319-0001",
+            "title": "二Ｏ二四年甲辰中元普渡祭祖護國息災祈福超薦繫念法會",
+            "itemdate": "2024.8.24-25",
+            "speechplace": "台灣台北市外貿協會國際會議中心",
+            "speechmaker": "悟道法師主法",
+            "poster": "poster/62/62-319/62-319-0001.png"
+        },
+        {
+            "id": 393009,
+            "itemidparent": "WD32",
+            "itemidchild": 175,
+            "num": 2,
+            "numdesc": "第2集",
+            "voice": "",
+            "menuid": "WD32-175",
+            "itemid": "WD32-175-0002",
+            "title": "二Ｏ二五國際書展華藏培訓課程開示",
+            "itemdate": "2024.10.12",
+            "speechplace": "新莊念佛堂",
+            "speechmaker": "悟道法師",
+            "poster": "poster/WD32/WD32-175/WD32-175-0002.jpg"
+        },
+        {
+            "id": 392960,
+            "itemidparent": "62",
+            "itemidchild": 320,
+            "num": 1,
+            "numdesc": "第1集",
+            "voice": "",
+            "menuid": "62-320",
+            "itemid": "62-320-0001",
+            "title": "二Ｏ二四年甲辰中元祭祖大典",
+            "itemdate": "2024.8.25",
+            "speechplace": "台灣台北市外貿協會國際會議中心",
+            "speechmaker": "-",
+            "poster": "poster/62/62-320/62-320-0001.png"
+        },
+        {
+            "id": 392247,
             "itemidparent": "WD32",
             "itemidchild": 7,
-            "num": 285,
-            "numdesc": "第285集",
+            "num": 492,
+            "numdesc": "第492集",
             "voice": "",
             "menuid": "WD32-007",
-            "itemid": "WD32-007-0285",
+            "itemid": "WD32-007-0492",
             "title": "悟道法師晨間講話",
-            "itemdate": "2022.03.03",
+            "itemdate": "2024.10.14",
             "speechplace": "華藏淨宗學會",
             "speechmaker": "悟道法師",
-            "poster": "poster/WD32/WD32-007/WD32-007-0285.jpg"
+            "poster": "poster/WD32/WD32-007/WD32-007-0492.jpg"
         },
         {
-            "id": 345035,
-            "itemidparent": "WD13",
-            "itemidchild": 5,
-            "num": 79,
-            "numdesc": "第79集",
+            "id": 392565,
+            "itemidparent": "65",
+            "itemidchild": 193,
+            "num": 18,
+            "numdesc": "第18集",
             "voice": "",
-            "menuid": "WD13-005",
-            "itemid": "WD13-005-0079",
-            "title": "淨宗同學修行守則",
-            "itemdate": "2021.11.12",
-            "speechplace": "台灣台北靈巖山寺雙溪小築",
-            "speechmaker": "悟道法師",
-            "poster": "poster/WD13/WD13-005/WD13-005-0079.jpg"
-        },
-        {
-            "id": 344179,
-            "itemidparent": "WD32",
-            "itemidchild": 77,
-            "num": 8,
-            "numdesc": "第8集",
-            "voice": "",
-            "menuid": "WD32-077",
-            "itemid": "WD32-077-0008",
-            "title": "華藏淨宗學會宜蘭念佛堂三時繫念法會開示",
-            "itemdate": "2021.04.25",
-            "speechplace": "華藏淨宗學會宜蘭念佛堂",
-            "speechmaker": "悟道法師",
-            "poster": "poster/WD32/WD32-077/WD32-077-0008.jpg"
-        },
-        {
-            "id": 334102,
-            "itemidparent": "WD21",
-            "itemidchild": 68,
-            "num": 1,
-            "numdesc": "第1集",
-            "voice": "",
-            "menuid": "WD21-068",
-            "itemid": "WD21-068-0001",
-            "title": "民國104年歲次乙未春季護國息災三時繫念法會－主法和尚開示",
-            "itemdate": "2015.3.1",
-            "speechplace": "台灣高雄市鳳山體育館",
-            "speechmaker": "悟道法師",
-            "poster": "poster/WD21/WD21-068/WD21-068-0001.jpg"
-        },
-        {
-            "id": 343987,
-            "itemidparent": "WD32",
-            "itemidchild": 72,
-            "num": 78,
-            "numdesc": "第78集",
-            "voice": "",
-            "menuid": "WD32-072",
-            "itemid": "WD32-072-0078",
-            "title": "雙溪小築護國息災繫念法會開示",
-            "itemdate": "2021.11.12",
-            "speechplace": "台灣台北靈巖山寺雙溪小築",
-            "speechmaker": "悟道法師",
-            "poster": "poster/WD32/WD32-072/WD32-072-0078.jpg"
-        },
-        {
-            "id": 343480,
-            "itemidparent": "63",
-            "itemidchild": 7,
-            "num": 1,
-            "numdesc": "第1集",
-            "voice": "",
-            "menuid": "63-007",
-            "itemid": "63-007-0001",
-            "title": "梵唄教學",
-            "itemdate": "2008.7.1",
-            "speechplace": "中國廬江金剛寺",
-            "speechmaker": "悟道法師",
-            "poster": "poster/63/63-007/63-007-0001.jpg"
+            "menuid": "65-193",
+            "itemid": "65-193-0018",
+            "title": "尋找觀世音",
+            "itemdate": "",
+            "speechplace": null,
+            "speechmaker": "-",
+            "poster": "poster/65/65-193/65-193-0018.jpg"
         }
     ]
 }
