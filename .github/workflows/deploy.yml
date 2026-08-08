@@ -20,18 +20,28 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
-          cache-dependency-path: quartz/package-lock.json
+
+      - name: Clone Quartz
+        run: git clone --branch v5 https://github.com/jackyzha0/quartz.git quartz
 
       - name: Copy wiki content to Quartz
         run: cp -r amtb/wiki quartz/content
+
+      - name: Copy quartz config
+        run: cp .github/quartz.config.ts quartz/quartz.config.ts
+
+      - name: Cache npm dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('quartz/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
 
       - name: Install dependencies
         working-directory: ./quartz
