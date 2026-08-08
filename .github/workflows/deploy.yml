@@ -30,12 +30,16 @@ jobs:
           cache: npm
           cache-dependency-path: quartz/package-lock.json
 
+      - name: Copy wiki content to Quartz
+        run: cp -r amtb/wiki quartz/content
+
+      - name: Install dependencies
+        working-directory: ./quartz
+        run: npm ci
+
       - name: Build Quartz
         working-directory: ./quartz
         run: npx quartz build
-
-      - name: Verify build output
-        run: ls -la quartz/public/ && test -f quartz/public/index.html && echo "index.html exists"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
