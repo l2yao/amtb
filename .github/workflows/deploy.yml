@@ -30,6 +30,9 @@ jobs:
           cache: npm
           cache-dependency-path: quartz/package-lock.json
 
+      - name: Copy wiki content to Quartz
+        run: cp -r amtb/wiki quartz/content
+
       - name: Install dependencies
         working-directory: ./quartz
         run: npm ci
