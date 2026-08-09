@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: zh-TW
-  baseUrl: l2yao.github.io/amtb/wiki
+  baseUrl: l2yao.github.io/amtb
   ignorePatterns:
     - private
     - templates
