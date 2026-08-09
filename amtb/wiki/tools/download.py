@@ -1,7 +1,11 @@
 from concurrent.futures import ThreadPoolExecutor
 import json
+import sys
 import urllib.request
 from pathlib import Path
+
+sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+sys.stderr.reconfigure(encoding='utf-8', errors='replace')
 
 doc_type = ['doc', 'pdf']
 media_type = ['mp3', 'mp4']
