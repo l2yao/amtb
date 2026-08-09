@@ -12,7 +12,7 @@ Build a persistent, interlinked, compounding knowledge base of Traditional Chine
 amtb/
   AGENTS.md           <- this file (schema)
   amtb/
-    doc/              <- RAW SOURCES (immutable, never edited)
+    doc/              <- RAW SOURCES (updated only via wiki/tools, never hand-edited)
     wiki/             <- THE WIKI (LLM-owned markdown)
       SCHEMA.md       <- page templates & examples
       README.md       <- home/overview
@@ -20,19 +20,23 @@ amtb/
       log.md          <- chronological activity log
       raw-manifest.md <- generated catalog of all raw series
       tools/
-        gen_manifest.py
+        fetch.py      <- pull AMTB catalog (menu.json + category JSONs) from amtb.tw
+        download.py   <- download .doc/.pdf into doc/ (incremental)
+        doc_to_md.py  <- convert .doc -> .md via markitdown
+        gen_manifest.py <- regenerate raw-manifest.md
+        requirements.txt
       認識佛教/ 三皈五戒/ ...   <- category folders
 ```
 
 ## The three layers
 
-1. **Raw sources** — `amtb/doc/`. Curated, immutable, git-tracked. The LLM reads from here, **never writes**. One exception: `wiki/tools/gen_manifest.py` is a read-only generator that parses metadata and writes the manifest into the wiki (not into raw).
+1. **Raw sources** — `amtb/doc/`. Curated, git-tracked. The LLM reads from here and **writes only via the source-update tools** (`wiki/tools/fetch.py`, `download.py`, `doc_to_md.py`, and the read-only `gen_manifest.py`). Never hand-edit anything under `doc/`.
 2. **The wiki** — `amtb/wiki/`. LLM-owned markdown. Create/update pages on ingest, query, and lint.
 3. **The schema** — this file + `wiki/SCHEMA.md`. Co-evolve with the human.
 
 ## Raw source format
 
-- 10 top-level categories (認識佛教, 三皈五戒, 入門經典, 淨土五經一論, 大乘經論, 其他經律論, 社會教育, 祖師大德, 講經培訓, 開示問答與活動).
+- 10 top-level categories (認識佛教, 三皈五戒, 入門經典, 淨土五經一論, 大乘經論, 其他經律論, 社會教育, 祖師大德, 講經培訓, 開示問答與活動); 佛號和讀誦 also exists on amtb.tw and is in scope for future syncs.
 - Each category → topic folders → **series folders** named by code (e.g. `17-001`) → numbered `.md` pages (`0001.md`, `0002.md`, ...).
 - A series = one teaching title (possibly many sessions/集). There are **1,269 series folders, ~15,300 pages** (includes 6 `_EN` English variants).
 - Every page's **first line** is metadata:
@@ -90,9 +94,29 @@ wiki/
 - **Links**: Obsidian-style wikilinks `[[認識佛陀教育]]`, `[[概念/念佛]]`. For source pages, link the code text: `[[17-001]]`.
 - **Frontmatter**: always YAML `---` block. Keys: `type`, `category`, `topic`, `code`, `title`, `date`, `place`, `pages`, `raw`, `tags`, `updated`. Use `date: YYYY-MM-DD` or `YYYY/M` as available.
 - **Citations**: when a claim comes from a specific series, cite it as `〔17-001〕` or link `[[17-001]]`. When a concept page synthesizes multiple sources, list source codes.
-- **Immutable raw**: never modify anything under `amtb/doc/`.
+- **Tool-managed raw**: never hand-edit anything under `amtb/doc/`; change it only through the source-update tools (see Source update workflow).
 
 ## Workflows
+
+### Source update (refresh raw corpus)
+Run when the human asks to sync new/updated teachings from amtb.tw, or at session start if unsure whether `doc/` is current.
+
+1. Install tool deps if needed: `pip install -r wiki/tools/requirements.txt`.
+2. Run from the **`amtb/` directory** (all tools use CWD-relative paths for `menu.json` and `doc/`):
+   ```
+   cd amtb
+   python wiki/tools/fetch.py        # refresh menu.json + per-category JSONs from amtb.tw
+   python wiki/tools/download.py     # download missing .doc/.pdf into doc/ (skips existing)
+   python wiki/tools/doc_to_md.py doc # convert new .doc -> .md via markitdown
+   python wiki/tools/gen_manifest.py # regenerate wiki/raw-manifest.md
+   ```
+3. Verify: `raw-manifest.md` counts update; spot-check a new `.md` first line (`題目　（集數）　日期　地點　檔名：CODE-PAGE`); `git status` under `doc/` shows only expected new files.
+4. Report to the human what was added/updated; if new series appeared, run the Ingest workflow on them next.
+
+Notes:
+- `download.py` is **incremental** — re-running it only fetches files that don't already exist locally.
+- Never hand-edit anything under `doc/`; always go through the tools.
+- `開示與問答/` (in `amtb/`, fetch output) is a legacy duplicate of `開示問答與活動/` — ignore it.
 
 ### Ingest (one series at a time, with human review)
 1. Read `wiki/raw-manifest.md` and `wiki/index.md` to find the series and check what exists.
@@ -120,7 +144,11 @@ wiki/
 
 ## Tools
 
+- `python wiki/tools/fetch.py` — pulls the AMTB catalog (`menu.json` + per-category JSONs) from `https://www.amtb.tw/`. Run from `amtb/` (writes CWD-relative).
+- `python wiki/tools/download.py` — downloads `.doc`/`.pdf` for each course into `doc/…`. Incremental: skips files that already exist. Media (mp3/mp4) is off by default.
+- `python wiki/tools/doc_to_md.py <dir>` — converts `.doc`/`.docx` → `.md` via markitdown (skips existing `.md`). Requires `markitdown` (and on Windows, `pywin32`; LibreOffice `soffice` as fallback).
 - `python wiki/tools/gen_manifest.py` — regenerates `wiki/raw-manifest.md` from the raw corpus. Run when the corpus changes or at session start if unsure.
+- Dependencies: `pip install -r wiki/tools/requirements.txt` (`requests`, `markitdown`).
 
 ## Rules of thumb
 

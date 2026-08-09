@@ -8,11 +8,16 @@ media_type = ['mp3', 'mp4']
 executor = ThreadPoolExecutor(max_workers=4)
 
 def download(url, path, filename, ext):
-    Path(path).mkdir(parents=True, exist_ok=True)
+    out = Path(path) / f'{filename}.{ext}'
+    if out.exists():
+        print(f'skip existing: {out}')
+        return
+    out.parent.mkdir(parents=True, exist_ok=True)
     with urllib.request.urlopen(url) as f:
         doc = f.read()
-        with open(f'{path}/{filename}.{ext}', 'wb') as wf:
+        with open(out, 'wb') as wf:
             wf.write(doc)
+    print(f'downloaded: {out}')
 
 
 def download_all(menu, is_download_txt, is_download_media):
@@ -57,4 +62,5 @@ def download_media(dir, file_path, file_name):
                         url = f'https://tw4.hwadzan.info/redirect/media/{ext}/{menu_id_parent}/{menu_id}/{menu_id}-{number}.{ext}'
                         download(url, f'media/{dir}/{file_name}/{menu_id}', f'{number}', ext)
 
-download_all('menu.json', True, False)
+if __name__ == "__main__":
+    download_all('menu.json', True, False)
