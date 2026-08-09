@@ -27,7 +27,7 @@ jobs:
           node-version: 22
 
       - name: Clone Quartz
-        run: git clone --branch v5 https://github.com/jackyzha0/quartz.git quartz
+        run: rm -rf quartz && git clone --branch v5 https://github.com/jackyzha0/quartz.git quartz
 
       - name: Copy wiki content to Quartz
         run: cp -r amtb/wiki quartz/content
