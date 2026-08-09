@@ -57,6 +57,7 @@ export default defineConfig({
       { name: "@quartz-community/alias-redirects" },
       { name: "@quartz-community/remove-draft" },
       { name: "@quartz-community/note-properties", options: { includeAll: true, includedProperties: ["type", "category", "topic", "code", "date", "place", "pages", "tags"], excludedProperties: ["raw", "created", "updated"] } },
+      { name: "./quartz/plugins/transformers/prefix-internal-links", options: { basePath: "/amtb/wiki" } },
     ],
     filters: [
       { name: "@quartz-community/remove-draft" },
