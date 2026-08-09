@@ -26,18 +26,16 @@ jobs:
         with:
           node-version: 22
 
-      - name: Copy custom transformer for later use
-        run: mkdir -p .tmp && cp quartz/plugins/transformers/prefix-internal-links.ts .tmp/prefix-internal-links.ts
+      - name: Preserve custom quartz config
+        run: mkdir -p .tmp && cp quartz/quartz.config.yaml .tmp/quartz.config.yaml
 
       - name: Clone Quartz
         run: rm -rf quartz && git clone --branch v5 https://github.com/jackyzha0/quartz.git quartz
 
-      - name: Copy wiki content and custom transformer to Quartz
+      - name: Copy wiki content and custom config to Quartz
         run: |
           cp -r amtb/wiki quartz/content
-          mkdir -p quartz/plugins/transformers
-          cp .tmp/prefix-internal-links.ts quartz/plugins/transformers/prefix-internal-links.ts
-          cp .github/quartz.config.ts quartz/quartz.config.ts
+          cp .tmp/quartz.config.yaml quartz/quartz.config.yaml
 
       - name: Cache npm dependencies
         uses: actions/cache@v4
