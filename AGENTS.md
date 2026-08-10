@@ -77,7 +77,7 @@ wiki/
 
 ### Source page (`17-001.md`)
 - `type: source`, `category`, `topic`, `code`, `title`, `date`, `place`, `pages`, `raw`, `media`.
-- Sections: 概要 (summary), 重點 (key teachings), 相關概念 (wikilinks to concepts), 相關頁面 (links to related series/topics), 原始資料與影音 (GitHub links to raw folder + first/last episode text/media).
+- Sections: 概要 (summary), 重點 (key teachings), 相關概念 (wikilinks to concepts), 相關頁面 (links to related series/topics), 原始資料與影音 (GitHub links to raw folder + a per-episode table of text/media links).
 - One page per series; cite the raw path so the reader can drill in.
 
 ### Concept page (`概念/念佛.md`)
@@ -94,7 +94,7 @@ wiki/
 - **Links**: Obsidian-style wikilinks `[[認識佛陀教育]]`, `[[概念/念佛]]`. For source pages, link the code text: `[[17-001]]`.
 - **Frontmatter**: always YAML `---` block. Keys: `type`, `category`, `topic`, `code`, `title`, `date`, `place`, `pages`, `raw`, `media`, `tags`, `updated`. Use `date: YYYY-MM-DD` or `YYYY/M` as available.
 - **Citations**: when a claim comes from a specific series, cite it as `〔17-001〕` or link `[[17-001]]`. When a concept page synthesizes multiple sources, list source codes.
-- **Reference links**: every source page carries a `## 原始資料與影音` section. Media types come from the category JSON flags (`mp3`/`himp4`/`mp4`), never guessed. See SCHEMA.md for exact URL formats.
+- **Reference links**: every source page carries a `## 原始資料與影音` section with a per-episode table of text (`md`/`doc`/`pdf`) and media links — every episode, no omission. Media types come from the category JSON flags (`mp3`/`himp4`/`mp4`), never guessed. See SCHEMA.md for exact URL formats.
 - **Tool-managed raw**: never hand-edit anything under `amtb/doc/`; change it only through the source-update tools (see Source update workflow).
 
 ## Workflows
