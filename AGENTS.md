@@ -76,8 +76,8 @@ wiki/
 - One per sutra/subject within a category. Lists its series with links, notes thematic structure.
 
 ### Source page (`17-001.md`)
-- `type: source`, `category`, `topic`, `code`, `title`, `date`, `place`, `pages`, `raw`.
-- Sections: 概要 (summary), 重點 (key teachings), 相關概念 (wikilinks to concepts), 相關頁面 (links to related series/topics).
+- `type: source`, `category`, `topic`, `code`, `title`, `date`, `place`, `pages`, `raw`, `media`.
+- Sections: 概要 (summary), 重點 (key teachings), 相關概念 (wikilinks to concepts), 相關頁面 (links to related series/topics), 原始資料與影音 (GitHub links to raw folder + first/last episode text/media).
 - One page per series; cite the raw path so the reader can drill in.
 
 ### Concept page (`概念/念佛.md`)
@@ -92,8 +92,9 @@ wiki/
 
 - **Naming**: files use the natural Chinese name for concepts/topics; source pages use the numeric code. No spaces in filenames; if needed use `_`.
 - **Links**: Obsidian-style wikilinks `[[認識佛陀教育]]`, `[[概念/念佛]]`. For source pages, link the code text: `[[17-001]]`.
-- **Frontmatter**: always YAML `---` block. Keys: `type`, `category`, `topic`, `code`, `title`, `date`, `place`, `pages`, `raw`, `tags`, `updated`. Use `date: YYYY-MM-DD` or `YYYY/M` as available.
+- **Frontmatter**: always YAML `---` block. Keys: `type`, `category`, `topic`, `code`, `title`, `date`, `place`, `pages`, `raw`, `media`, `tags`, `updated`. Use `date: YYYY-MM-DD` or `YYYY/M` as available.
 - **Citations**: when a claim comes from a specific series, cite it as `〔17-001〕` or link `[[17-001]]`. When a concept page synthesizes multiple sources, list source codes.
+- **Reference links**: every source page carries a `## 原始資料與影音` section. Media types come from the category JSON flags (`mp3`/`himp4`/`mp4`), never guessed. See SCHEMA.md for exact URL formats.
 - **Tool-managed raw**: never hand-edit anything under `amtb/doc/`; change it only through the source-update tools (see Source update workflow).
 
 ## Workflows
@@ -121,7 +122,7 @@ Notes:
 ### Ingest (one series at a time, with human review)
 1. Read `wiki/raw-manifest.md` and `wiki/index.md` to find the series and check what exists.
 2. Read the source pages of the series (all `.md` in the folder; start with `0001.md`).
-3. Write/update the **source page** in the wiki: 概要, 重點, metadata, raw path.
+3. Write/update the **source page** in the wiki: 概要, 重點, metadata, raw path, and the `## 原始資料與影音` section (GitHub links to the raw folder + first/last episode text `md`/`doc`/`pdf` and media links; media types come from the category JSON flags, e.g. `認識佛教.json`, never guessed — see SCHEMA.md for the exact link formats).
 4. Update/create **concept pages** referenced by the teachings.
 5. Update the **topic page** and **category page** if the series adds structure or emphasis.
 6. Update **`index.md`** (add/refresh the entry).

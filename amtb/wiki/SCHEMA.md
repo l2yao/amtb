@@ -75,6 +75,7 @@ date: 1991/12
 place: 美國邁阿密
 pages: 7
 raw: doc/認識佛教/認識佛陀教育/17-001/
+media: [mp3]
 tags: [認識佛教, 佛教教育]
 created: 2026-08-04
 updated: 2026-08-04
@@ -105,6 +106,14 @@ updated: 2026-08-04
 
 - [[認識佛陀教育]] — 主題頁
 - [[17-005]] — 同題材其他開示
+
+## 原始資料與影音
+
+- **原始資料夾**：[GitHub](https://github.com/l2yao/amtb/tree/main/amtb/doc/認識佛教/認識佛陀教育/17-001)（doc/pdf/md 全部集數）
+- **第一集** 〔17-001-0001〕：文字 [md](https://github.com/l2yao/amtb/blob/main/amtb/doc/認識佛教/認識佛陀教育/17-001/0001.md) · [doc](https://github.com/l2yao/amtb/blob/main/amtb/doc/認識佛教/認識佛陀教育/17-001/0001.doc) · [pdf](https://github.com/l2yao/amtb/blob/main/amtb/doc/認識佛教/認識佛陀教育/17-001/0001.pdf) ｜ 影音 [mp3](https://tw4.hwadzan.info/redirect/media/mp3/17/17-001/17-001-0001.mp3)
+- **末集** 〔17-001-0007〕：文字 [md](https://github.com/l2yao/amtb/blob/main/amtb/doc/認識佛教/認識佛陀教育/17-001/0007.md) · [doc](https://github.com/l2yao/amtb/blob/main/amtb/doc/認識佛教/認識佛陀教育/17-001/0007.doc) · [pdf](https://github.com/l2yao/amtb/blob/main/amtb/doc/認識佛教/認識佛陀教育/17-001/0007.pdf) ｜ 影音 [mp3](https://tw4.hwadzan.info/redirect/media/mp3/17/17-001/17-001-0007.mp3)
+
+> 媒體類型由該系列於分類 JSON 的旗標決定：`mp3`（mp3=1）、`himp4`（himp4=1）、`mp4`（mp4=1 且 himp4=0）。少數系列旗標雖為 1，影音檔仍可能 404（例如 18-023）。
 ```
 
 ### 概念頁 (concept)
@@ -169,6 +178,12 @@ updated: 2026-08-04
 - 檔名：概念/主題用中文名；開示頁用代碼（如 `17-001.md`）。檔名不含空格。
 - 內部連結：`[[頁面名]]`；開示頁連結代碼 `[[17-001]]`；概念頁用 `[[概念/念佛]]`。
 - 引用：`〔17-001〕` 引用整個系列，`〔17-001-0001〕` 引用特定一集。
+- 開示頁需附 `## 原始資料與影音` 區段，提供：原始資料夾的 GitHub 連結（`https://github.com/l2yao/amtb/tree/main/amtb/doc/<路徑>`）、第一集與末集的文字（`md`/`doc`/`pdf`，GitHub blob：`https://github.com/l2yao/amtb/blob/main/amtb/doc/<路徑>/<NNNN>.<副檔名>`）與影音連結。中文路徑在 URL 中須以 UTF-8 百分比編碼。
+- 影音連結格式（AMTB CDN 重新導向，`parent` 為 `code` 之首段，如 `17-001` → `17`；`NNNN` 為集數補零至四位）：
+  - mp3：`https://tw4.hwadzan.info/redirect/media/mp3/{parent}/{code}/{code}-{NNNN}.mp3`
+  - himp4：`https://tw4.hwadzan.info/redirect/media/himp4/{parent}/{code}/{code}-{NNNN}.mp4`
+  - mp4：`https://tw4.hwadzan.info/redirect/media/mp4/{parent}/{code}/{code}-{NNNN}.mp4`
+  - 依 frontmatter `media` 列出之類型取用。
 
 ## 前導資料 (frontmatter)
 
@@ -185,6 +200,7 @@ updated: 2026-08-04
 | `place` | 地點 | `美國邁阿密` |
 | `pages` | 集數 | `7` |
 | `raw` | 原始資料夾路徑 | `doc/認識佛教/認識佛陀教育/17-001/` |
+| `media` | 可取得的影音類型（取自分類 JSON 旗標） | `[mp3]` / `[mp3, himp4]` |
 | `tags` | 標籤 | `[淨土, 阿彌陀佛]` |
 | `created` / `updated` | 日期 | `2026-08-04` |
 | `sources` | 概念頁引用的系列代碼 | `[16-001, 17-001]` |
