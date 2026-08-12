@@ -149,6 +149,7 @@ Notes:
 - `python wiki/tools/download.py` — downloads `.doc`/`.pdf` for each course into `doc/…`. Incremental: skips files that already exist. Media (mp3/mp4) is off by default.
 - `python wiki/tools/doc_to_md.py <dir>` — converts `.doc`/`.docx` → `.md` via markitdown (skips existing `.md`). Requires `markitdown` (and on Windows, `pywin32`; LibreOffice `soffice` as fallback).
 - `python wiki/tools/gen_manifest.py` — regenerates `wiki/raw-manifest.md` from the raw corpus. Run when the corpus changes or at session start if unsure.
+- `python wiki/tools/backfill_reflinks.py` — appends the `## 原始資料與影音` per-episode table + `media:` frontmatter to every existing source page. Idempotent (skips pages already carrying the section). Derives the episode list from on-disk `.md` files and media types from the category JSON flags. Run from `amtb/`.
 - Dependencies: `pip install -r wiki/tools/requirements.txt` (`requests`, `markitdown`).
 
 ## Rules of thumb
@@ -156,4 +157,4 @@ Notes:
 - Prefer updating existing pages over creating new ones; keep the wiki small and linked.
 - When in doubt about emphasis, ask the human.
 - Never invent metadata; if the raw line is missing a field, leave it blank rather than guess.
-- Keep every page focused; split long pages when they exceed roughly 150 lines.
+- Keep every page focused; split long pages when they exceed roughly 150 lines. Exception: the `## 原始資料與影音` per-episode reference table grows with episode count by design and is exempt from the line limit (full tables never truncated).
