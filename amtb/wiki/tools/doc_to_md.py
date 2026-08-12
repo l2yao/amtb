@@ -4,6 +4,10 @@ from markitdown import MarkItDown
 import subprocess
 import platform
 
+import sys
+sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+
 if platform.system() == 'Windows':
     try:
         import win32com.client
